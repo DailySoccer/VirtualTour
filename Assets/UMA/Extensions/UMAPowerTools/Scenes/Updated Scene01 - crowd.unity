@@ -4454,22 +4454,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1517511540}
   m_GameObject: {fileID: 362795719}
---- !u!1 &368815908
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: b4b817e0d7c24134d89abd5f377c23f5, type: 2}
-  m_PrefabInternal: {fileID: 2011205512}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1951823332}
-  - 114: {fileID: 1951823333}
-  m_Layer: 0
-  m_Name: UMACustomization
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &369128283
 GameObject:
   m_ObjectHideFlags: 0
@@ -6641,7 +6625,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
   m_PrefabInternal: {fileID: 1038058017}
-  m_GameObject: {fileID: 1946713783}
+  m_GameObject: {fileID: 1758700656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -6654,7 +6638,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: f500ac7a6589e8f4199db272256fe996,
     type: 2}
   m_PrefabInternal: {fileID: 1038058017}
-  m_GameObject: {fileID: 1946713783}
+  m_GameObject: {fileID: 1758700656}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b41d019fd27682f4fa2cadfe47b38e0a, type: 3}
@@ -7422,6 +7406,71 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 125329600}
   m_GameObject: {fileID: 611710552}
+--- !u!1 &628113282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: f339fe484442bb14a853826f3556fa50, type: 2}
+  m_PrefabInternal: {fileID: 977996851}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 787143593}
+  - 114: {fileID: 628113283}
+  m_Layer: 0
+  m_Name: UMACrowd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &628113283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: f339fe484442bb14a853826f3556fa50,
+    type: 2}
+  m_PrefabInternal: {fileID: 977996851}
+  m_GameObject: {fileID: 628113282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde407db6d587ca4096a04837fd051dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotLibrary: {fileID: 387696596}
+  overlayLibrary: {fileID: 1482350188}
+  raceLibrary: {fileID: 2054243461}
+  randomPool:
+  - {fileID: 11400000, guid: 99235657444dbea4080744294ecf2e6d, type: 2}
+  - {fileID: 11400000, guid: 3679be70833c6ad4eae237d92af1a2b4, type: 2}
+  generator: {fileID: 518079764}
+  umaData: {fileID: 0}
+  umaContext: {fileID: 0}
+  animationController: {fileID: 9100000, guid: eb280940c811fab4a9e3ddf09381c343, type: 2}
+  atlasResolutionScale: 1
+  generateUMA: 0
+  generateLotsUMA: 1
+  hideWhileGeneratingLots: 1
+  stressTest: 0
+  umaCrowdSize: {x: 6, y: 6}
+  randomDna: 1
+  additionalRecipes:
+  - {fileID: 11400000, guid: 1f292487d7383514f97c491cadfb0442, type: 2}
+  space: 1
+  zeroPoint: {fileID: 0}
+  keywords: []
+  CharacterCreated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  CharacterDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  CharacterUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1001 &629953165
 Prefab:
   m_ObjectHideFlags: 0
@@ -9561,7 +9610,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: f339fe484442bb14a853826f3556fa50, type: 2}
   m_PrefabInternal: {fileID: 977996851}
-  m_GameObject: {fileID: 1135640271}
+  m_GameObject: {fileID: 628113282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -12510,7 +12559,7 @@ Prefab:
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f339fe484442bb14a853826f3556fa50, type: 2}
-  m_RootGameObject: {fileID: 1135640271}
+  m_RootGameObject: {fileID: 628113282}
   m_IsPrefabParent: 0
 --- !u!1 &979822610
 GameObject:
@@ -13011,6 +13060,22 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1122396783}
   m_GameObject: {fileID: 981781234}
+--- !u!1 &988055074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: b4b817e0d7c24134d89abd5f377c23f5, type: 2}
+  m_PrefabInternal: {fileID: 2011205512}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1951823332}
+  - 114: {fileID: 1951823333}
+  m_Layer: 0
+  m_Name: UMACustomization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &990309771
 GameObject:
   m_ObjectHideFlags: 0
@@ -13918,7 +13983,7 @@ Prefab:
       objectReference: {fileID: 2079936343}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
-  m_RootGameObject: {fileID: 1946713783}
+  m_RootGameObject: {fileID: 1758700656}
   m_IsPrefabParent: 0
 --- !u!1 &1049175070
 GameObject:
@@ -15332,71 +15397,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1317984527}
   m_GameObject: {fileID: 1134509541}
---- !u!1 &1135640271
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: f339fe484442bb14a853826f3556fa50, type: 2}
-  m_PrefabInternal: {fileID: 977996851}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 787143593}
-  - 114: {fileID: 1135640272}
-  m_Layer: 0
-  m_Name: UMACrowd
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1135640272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: f339fe484442bb14a853826f3556fa50,
-    type: 2}
-  m_PrefabInternal: {fileID: 977996851}
-  m_GameObject: {fileID: 1135640271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bde407db6d587ca4096a04837fd051dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slotLibrary: {fileID: 387696596}
-  overlayLibrary: {fileID: 1482350188}
-  raceLibrary: {fileID: 2054243461}
-  randomPool:
-  - {fileID: 11400000, guid: 99235657444dbea4080744294ecf2e6d, type: 2}
-  - {fileID: 11400000, guid: 3679be70833c6ad4eae237d92af1a2b4, type: 2}
-  generator: {fileID: 518079764}
-  umaData: {fileID: 0}
-  umaContext: {fileID: 0}
-  animationController: {fileID: 9100000, guid: eb280940c811fab4a9e3ddf09381c343, type: 2}
-  atlasResolutionScale: 1
-  generateUMA: 0
-  generateLotsUMA: 1
-  hideWhileGeneratingLots: 1
-  stressTest: 0
-  umaCrowdSize: {x: 6, y: 6}
-  randomDna: 1
-  additionalRecipes:
-  - {fileID: 11400000, guid: 1f292487d7383514f97c491cadfb0442, type: 2}
-  space: 1
-  zeroPoint: {fileID: 0}
-  keywords: []
-  CharacterCreated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  CharacterDestroyed:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  CharacterUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
 --- !u!1 &1139086369
 GameObject:
   m_ObjectHideFlags: 0
@@ -23698,6 +23698,22 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &1758700656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
+  m_PrefabInternal: {fileID: 1038058017}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 518079763}
+  - 114: {fileID: 518079764}
+  m_Layer: 0
+  m_Name: UMAGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1759196724
 GameObject:
   m_ObjectHideFlags: 0
@@ -26949,22 +26965,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 1244441125}
   m_GameObject: {fileID: 1945913676}
---- !u!1 &1946713783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
-  m_PrefabInternal: {fileID: 1038058017}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 518079763}
-  - 114: {fileID: 518079764}
-  m_Layer: 0
-  m_Name: UMAGenerator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1948814493
 GameObject:
   m_ObjectHideFlags: 0
@@ -27068,7 +27068,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: b4b817e0d7c24134d89abd5f377c23f5, type: 2}
   m_PrefabInternal: {fileID: 2011205512}
-  m_GameObject: {fileID: 368815908}
+  m_GameObject: {fileID: 988055074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -27081,7 +27081,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: b4b817e0d7c24134d89abd5f377c23f5,
     type: 2}
   m_PrefabInternal: {fileID: 2011205512}
-  m_GameObject: {fileID: 368815908}
+  m_GameObject: {fileID: 988055074}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25a44095b9abf4cc2a8d09ab8baa307b, type: 3}
@@ -28023,7 +28023,7 @@ Prefab:
       objectReference: {fileID: 1378902866}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4b817e0d7c24134d89abd5f377c23f5, type: 2}
-  m_RootGameObject: {fileID: 368815908}
+  m_RootGameObject: {fileID: 988055074}
   m_IsPrefabParent: 0
 --- !u!1001 &2034397295
 Prefab:

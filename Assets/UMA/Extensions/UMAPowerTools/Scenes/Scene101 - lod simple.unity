@@ -384,7 +384,7 @@ Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
   m_PrefabInternal: {fileID: 1120674820}
-  m_GameObject: {fileID: 1098160576}
+  m_GameObject: {fileID: 1695632636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: f500ac7a6589e8f4199db272256fe996,
     type: 2}
   m_PrefabInternal: {fileID: 1120674820}
-  m_GameObject: {fileID: 1098160576}
+  m_GameObject: {fileID: 1695632636}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b41d019fd27682f4fa2cadfe47b38e0a, type: 3}
@@ -1349,22 +1349,6 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
---- !u!1 &1098160576
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
-  m_PrefabInternal: {fileID: 1120674820}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 301285874}
-  - 114: {fileID: 301285875}
-  m_Layer: 0
-  m_Name: UMAGenerator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1001 &1120674820
 Prefab:
   m_ObjectHideFlags: 0
@@ -1426,7 +1410,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
-  m_RootGameObject: {fileID: 1098160576}
+  m_RootGameObject: {fileID: 1695632636}
   m_IsPrefabParent: 0
 --- !u!1 &1134028390
 GameObject:
@@ -2288,6 +2272,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 879538282}
   m_RootOrder: 3
+--- !u!1 &1695632636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: f500ac7a6589e8f4199db272256fe996, type: 2}
+  m_PrefabInternal: {fileID: 1120674820}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 301285874}
+  - 114: {fileID: 301285875}
+  m_Layer: 0
+  m_Name: UMAGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1712776697
 GameObject:
   m_ObjectHideFlags: 0
