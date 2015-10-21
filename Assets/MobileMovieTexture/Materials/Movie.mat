@@ -34,15 +34,15 @@ Material:
           name: _YTex
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: .969696999, y: -.958333313}
-          m_Offset: {x: 0, y: .958333313}
+          m_Scale: {x: .978260875, y: -.992647052}
+          m_Offset: {x: 0, y: .992647052}
       data:
         first:
           name: _CbTex
         second:
           m_Texture: {fileID: 0}
-          m_Scale: {x: .969696999, y: -.958333313}
-          m_Offset: {x: 0, y: .958333313}
+          m_Scale: {x: .978260875, y: -.992647052}
+          m_Offset: {x: 0, y: .992647052}
       data:
         first:
           name: _CrTex
