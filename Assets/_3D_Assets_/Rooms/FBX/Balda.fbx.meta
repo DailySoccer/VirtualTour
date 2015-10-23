@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b16e15364a7d3234fa65873e6db387ed
-timeCreated: 1435743496
+timeCreated: 1445500489
 licenseType: Pro
 ModelImporter:
   serializedVersion: 18
@@ -11,7 +11,7 @@ ModelImporter:
     3300000: //RootNode
     4300000: Balda
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
@@ -30,7 +30,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
