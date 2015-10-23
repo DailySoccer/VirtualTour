@@ -25,7 +25,7 @@ public class CustomSwitcherButton : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		Player.Instance.cameraStyle = isOn? SyncCameraTransform.CameraStyle.FPS : SyncCameraTransform.CameraStyle.ThirdPerson;
 	}
 	
 	// Update is called once per frame
@@ -37,6 +37,7 @@ public class CustomSwitcherButton : MonoBehaviour {
 		if (!thridPersonCameraOnly) {
 			currentImg.sprite = isOn ? imageOn : imageOff;
 			isOn = !isOn;
+			Player.Instance.cameraStyle = isOn? SyncCameraTransform.CameraStyle.FPS : SyncCameraTransform.CameraStyle.ThirdPerson;
 		}
 	}
 }
