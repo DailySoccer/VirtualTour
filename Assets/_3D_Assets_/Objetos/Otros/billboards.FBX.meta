@@ -33,6 +33,7 @@ ModelImporter:
     100050: medallas_01
     100052: medallas_02
     100054: Billboard_carnet_005
+    100056: medallas_03
     400000: Billboard_carnet_001
     400002: Billboard_carnet_002
     400004: Billboard_carnet_003
@@ -61,6 +62,7 @@ ModelImporter:
     400050: medallas_01
     400052: medallas_02
     400054: Billboard_carnet_005
+    400056: medallas_03
     2300000: Billboard_carnet_001
     2300002: Billboard_carnet_002
     2300004: Billboard_carnet_003
@@ -88,6 +90,7 @@ ModelImporter:
     2300048: medallas_01
     2300050: medallas_02
     2300052: Billboard_carnet_005
+    2300054: medallas_03
     3300000: Billboard_carnet_001
     3300002: Billboard_carnet_002
     3300004: Billboard_carnet_003
@@ -115,6 +118,7 @@ ModelImporter:
     3300048: medallas_01
     3300050: medallas_02
     3300052: Billboard_carnet_005
+    3300054: medallas_03
     4300000: Billboard_cartel_001
     4300002: Billboard_cartel_002
     4300004: Billboard_cartel_003
@@ -142,6 +146,7 @@ ModelImporter:
     4300048: banderin_04
     4300050: banderin_03
     4300052: Billboard_carnet_005
+    4300054: medallas_03
   materials:
     importMaterials: 1
     materialName: 0
