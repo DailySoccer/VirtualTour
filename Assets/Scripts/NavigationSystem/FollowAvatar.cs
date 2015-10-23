@@ -196,11 +196,12 @@ public class FollowAvatar : MonoBehaviour {
 		} else {
 			transform.Rotate(Vector3.up, Player.Instance.cameraRotation * Time.deltaTime);
 		}
+
 		/*
 		if (!isMoving || Mathf.Abs(angleForwardPlayerCam) < 3) {
 			isRotating = false;
-		}*/
-		
+		}
+		*/
 		/*
 		
 		

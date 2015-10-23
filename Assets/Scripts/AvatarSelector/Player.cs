@@ -8,6 +8,12 @@ public class Player : MonoBehaviour {
 	public bool avatarVisible = true;
 	
 	public float cameraRotation;
+	private float _cameraPitch;
+	public float cameraPitch {
+		get { return _cameraPitch; } 
+		set { _cameraPitch = value; }
+	}
+
 	private Locomotion _cacheLocomotion;
 	
 	[SerializeField]
@@ -23,6 +29,8 @@ public class Player : MonoBehaviour {
 	
 	[SerializeField]
 	public FollowAvatar.FollowStyle followStyle;
+	[SerializeField]
+	public SyncCameraTransform.CameraStyle cameraStyle;
 
 	static public Player Instance {
 		get {

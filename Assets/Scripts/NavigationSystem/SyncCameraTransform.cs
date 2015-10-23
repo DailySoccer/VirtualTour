@@ -2,8 +2,19 @@
 using System.Collections;
 
 public class SyncCameraTransform : MonoBehaviour {
-
+	
+	public enum CameraStyle {
+		FPS,
+		ThirdPerson
+	}
+	
 	public GameObject cameraSynced;
+	public GameObject fpsPoint;
+	public GameObject thirdPersonPoint;
+	private float _currentPitch;
+	public const int MAX_PITCH = 35;
+	public const int MIN_PITCH = -35;
+
 
 	// Use this for initialization
 	void Start () {
@@ -18,8 +29,26 @@ public class SyncCameraTransform : MonoBehaviour {
 			cameraSynced = Camera.main.gameObject;
 		}
 		if (cameraSynced != null) {
-			cameraSynced.transform.position = transform.position;
-			cameraSynced.transform.rotation = transform.rotation;
+			GameObject point = thirdPersonPoint;
+			switch (Player.Instance.cameraStyle) {
+				case CameraStyle.FPS: point = fpsPoint; break;
+				case CameraStyle.ThirdPerson: point = thirdPersonPoint; break;
+			}
+
+			cameraSynced.transform.position = point.transform.position;
+			cameraSynced.transform.rotation = point.transform.rotation;
+			AddPitch(Player.Instance.cameraPitch * Time.deltaTime);
+			cameraSynced.transform.Rotate(Vector3.right, -_currentPitch);
+			Debug.Log(cameraSynced.transform.localEulerAngles.x);
+			/*transform.localEulerAngles = new Vector3(
+					Mathf.Clamp(transform.localEulerAngles.x, MIN_PITCH, MAX_PITCH),
+					transform.localEulerAngles.y,
+					transform.localEulerAngles.z);*/
+
 		}
+	}
+
+	private void AddPitch(float amount) {
+		_currentPitch = Mathf.Clamp(_currentPitch + amount, MIN_PITCH, MAX_PITCH);
 	}
 }

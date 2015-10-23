@@ -2,7 +2,8 @@
 
 public class MovementController : MonoBehaviour {
 	
-    public float ROTATE_SPEED = 180f;
+	public float ROTATE_SPEED = 180f;
+	public float PITCH_SPEED = 90;
 	public float JOYSTICK_THRESHOLD = 0.3f;
     public float movementSpeed = 5f;
 	private bool isMoving = false;
@@ -62,8 +63,9 @@ public class MovementController : MonoBehaviour {
 	}
 	
 	
-    private void CommonRotationMethod(Vector2 rotation) {
+	private void CommonRotationMethod(Vector2 rotation) {
 		Player.Instance.cameraRotation = rotation.x * ROTATE_SPEED;
+		Player.Instance.cameraPitch = rotation.y * ROTATE_SPEED;
 	}
 	
     private void CommonMovementMethod(Vector2 movement) {
