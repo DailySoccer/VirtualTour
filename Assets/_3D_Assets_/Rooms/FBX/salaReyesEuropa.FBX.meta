@@ -55,6 +55,7 @@ ModelImporter:
     2300026: salaReyesEuropa
     2300028: salidaEmerg002
     2300030: boxCollider
+    2300032: //RootNode
     3300000: Box001
     3300002: collider
     3300004: luminosos
@@ -71,6 +72,7 @@ ModelImporter:
     3300026: salaReyesEuropa
     3300028: salidaEmerg002
     3300030: boxCollider
+    3300032: //RootNode
     4300000: sala
     4300002: proyector
     4300004: pantalla_basket

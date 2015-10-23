@@ -714,6 +714,8 @@ ModelImporter:
     101412: Object002
     101414: emergency_stairs
     101416: banderolaA
+    101418: Object003
+    101420: palcosVIP
     400000: //RootNode
     400002: bleachers_
     400004: Camera001
@@ -1423,6 +1425,8 @@ ModelImporter:
     401412: Object002
     401414: emergency_stairs
     401416: banderolaA
+    401418: Object003
+    401420: palcosVIP
     2300000: bleachers_
     2300002: chair_001
     2300004: chair_002
@@ -2100,6 +2104,8 @@ ModelImporter:
     2301348: Object002
     2301350: emergency_stairs
     2301352: banderolaA
+    2301354: Object003
+    2301356: palcosVIP
     3300000: bleachers_
     3300002: chair_001
     3300004: chair_002
@@ -2777,6 +2783,8 @@ ModelImporter:
     3301348: Object002
     3301350: emergency_stairs
     3301352: banderolaA
+    3301354: Object003
+    3301356: palcosVIP
     4300000: truss_
     4300002: structureExt_
     4300004: stairs_
@@ -3454,6 +3462,8 @@ ModelImporter:
     4301348: Object002
     4301350: emergency_stairs
     4301352: banderolaA
+    4301354: Object003
+    4301356: palcosVIP
     7400000: Take 001
     9500000: //RootNode
   materials:
