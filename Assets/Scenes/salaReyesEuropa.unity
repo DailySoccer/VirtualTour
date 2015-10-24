@@ -953,6 +953,10 @@ Prefab:
       propertyPath: m_Name
       value: pantallaTactil_DiStefano
       objectReference: {fileID: 0}
+    - target: {fileID: 11482460, guid: 8fe82dab1d1a31245899df59ee833026, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe82dab1d1a31245899df59ee833026, type: 2}
   m_IsPrefabParent: 0
@@ -4174,6 +4178,10 @@ Prefab:
     - target: {fileID: 113726, guid: 8fe82dab1d1a31245899df59ee833026, type: 2}
       propertyPath: m_Name
       value: pantallaTactil_Bernabeu
+      objectReference: {fileID: 0}
+    - target: {fileID: 11482460, guid: 8fe82dab1d1a31245899df59ee833026, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8fe82dab1d1a31245899df59ee833026, type: 2}
