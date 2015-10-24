@@ -3241,6 +3241,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 63faab7383c4ed246bff3d77fc881763, type: 2}
+    - target: {fileID: 186058, guid: b06b69babdcae9f47b2346b56d5cab92, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b06b69babdcae9f47b2346b56d5cab92, type: 2}
   m_IsPrefabParent: 0
