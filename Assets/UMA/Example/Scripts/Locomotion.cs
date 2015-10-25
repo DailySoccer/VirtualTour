@@ -78,8 +78,8 @@ public class Locomotion : MonoBehaviour {
 
 	void LateUpdate() {
 		//STABILIZE X AND Z
-		transform.rotation = new Quaternion(_initialRotation.x, transform.rotation.y, _initialRotation.z, transform.rotation.w);
-		_lastRotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+		//transform.rotation = new Quaternion(_initialRotation.x, transform.rotation.y, _initialRotation.z, transform.rotation.w);
+		//_lastRotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
 	}
 	
 	public void StopMoving() {
@@ -109,8 +109,12 @@ public class Locomotion : MonoBehaviour {
 			float normalizedRotation = (rotation/ROTATION_TO_BACK_THRESHOLD);
 			float normalizedRotation3 = Mathf.Pow(normalizedRotation, 3);
 
-			transform.rotation = _lastRotation;
+			//transform.rotation = _lastRotation;
+			float currentRotX = transform.rotation.x;
+			float currentRotZ = transform.rotation.z;
+			transform.rotation = new Quaternion(0, transform.rotation.y, 0, transform.rotation.w);
 			transform.Rotate(Vector3.up, normalizedRotation * 180 * Time.deltaTime);
+			transform.rotation = new Quaternion(currentRotX, transform.rotation.y, currentRotZ, transform.rotation.w);
 			
 			_animator.SetFloat("Forward", 1 - Mathf.Abs(normalizedRotation3) );
 		} else { // Hacia detras

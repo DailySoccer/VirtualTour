@@ -305,9 +305,10 @@ GameObject:
   - 114: {fileID: 11470176}
   - 114: {fileID: 11435080}
   - 114: {fileID: 11459896}
+  - 54: {fileID: 5453786}
   m_Layer: 0
   m_Name: manHIGHConfig
-  m_TagString: UMAAvatar
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1412,6 +1413,21 @@ Transform:
   - {fileID: 447918}
   m_Father: {fileID: 486094}
   m_RootOrder: 0
+--- !u!54 &5453786
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134000}
+  serializedVersion: 2
+  m_Mass: 10000
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!95 &9545498
 Animator:
   serializedVersion: 3
@@ -1420,7 +1436,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134000}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: f61fd0afe8092f04c9f813f904ff1fc2, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 8f20058d3353b5d4f8745aec241ebf2a, type: 3}
   m_Controller: {fileID: 9100000, guid: d09b025323e4742de9be4aee56fe46d6, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -1573,7 +1589,7 @@ CapsuleCollider:
   m_Radius: .400000006
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &13710990
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1861,12 +1877,28 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_TagString
-      value: UMAAvatar
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 9000000, guid: f61fd0afe8092f04c9f813f904ff1fc2, type: 3}
+      objectReference: {fileID: 9000000, guid: 8f20058d3353b5d4f8745aec241ebf2a, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 134000}

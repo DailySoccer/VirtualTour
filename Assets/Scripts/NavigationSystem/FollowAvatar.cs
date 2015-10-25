@@ -107,6 +107,11 @@ public class FollowAvatar : MonoBehaviour {
 		}
 	}
 	
+	void LateUpdate() {
+		//STABILIZE X AND Z
+		transform.rotation = new Quaternion(0, transform.rotation.y, 0, transform.rotation.w);
+	}
+
 	void LookAtPointOfInterest() {
 		Quaternion current = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
 		transform.LookAt(_thePointOfInterest);
@@ -191,7 +196,7 @@ public class FollowAvatar : MonoBehaviour {
 		float angleForwardPlayerCam = Mathf.Abs(Mathf.Atan2(relForwardPlayerCam, relPlayerCam) * TO_DEGREE);
 		
 		if (isMoving) {
-			transform.rotation = Quaternion.Lerp(transform.rotation, _followedAvatar.rotation, 10 * Time.deltaTime);// RotationSpeed * Time.deltaTime);
+			transform.rotation = Quaternion.Lerp(transform.rotation, _followedAvatar.rotation, RotationSpeed * Time.deltaTime);// RotationSpeed * Time.deltaTime);
 			isRotating = true;
 		} else {
 			transform.Rotate(Vector3.up, Player.Instance.cameraRotation * Time.deltaTime);
