@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class GUIFadeScreen : UIScreen {
-
-	public GameObject Loading;
+	
+	public GameObject CircleIn;
+	public GameObject CircleOut;
+	public float speed = 40f;
 
 	void OnEnable() {
 	}
@@ -12,8 +14,9 @@ public class GUIFadeScreen : UIScreen {
 	}
 	
 	void Update () {
-		if (Loading != null) {
-			Loading.transform.Rotate(0,10,0);
+		if (CircleIn != null && CircleOut != null) {
+			CircleIn.transform.Rotate(0, 0, -Time.deltaTime * speed);
+			CircleOut.transform.Rotate(0, 0, Time.deltaTime * speed);
 		}
 	}
 }
