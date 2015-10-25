@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e58db9ad7e2c2649a07c656db7f68ff
+guid: 2ca6ab5a9c279ab47bfdc6f8509e1c36
 timeCreated: 1445801203
 licenseType: Pro
 ModelImporter:
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: RM
+    4300000: AT
     9500000: //RootNode
   materials:
     importMaterials: 1
