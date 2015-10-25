@@ -655,7 +655,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 7675e5f5f2d88ac48a53afc021294cf7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4e4eeb1b70c73784aacd1261dfd93cbf, type: 2}
+      objectReference: {fileID: 2100000, guid: 89527a80b40a57f41ada156d25f3df9e, type: 2}
     - target: {fileID: 2300000, guid: 7675e5f5f2d88ac48a53afc021294cf7, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -1007,7 +1007,7 @@ Prefab:
     - target: {fileID: 2300000, guid: ae560ae994b84794d8b5ecb56ffbd153, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4e4eeb1b70c73784aacd1261dfd93cbf, type: 2}
+      objectReference: {fileID: 2100000, guid: 89527a80b40a57f41ada156d25f3df9e, type: 2}
     - target: {fileID: 100000, guid: ae560ae994b84794d8b5ecb56ffbd153, type: 3}
       propertyPath: m_Name
       value: Champions_Orejona_LOD1 (2)
@@ -4527,7 +4527,7 @@ Prefab:
     - target: {fileID: 2300000, guid: ae560ae994b84794d8b5ecb56ffbd153, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4e4eeb1b70c73784aacd1261dfd93cbf, type: 2}
+      objectReference: {fileID: 2100000, guid: 89527a80b40a57f41ada156d25f3df9e, type: 2}
     - target: {fileID: 100000, guid: ae560ae994b84794d8b5ecb56ffbd153, type: 3}
       propertyPath: m_Name
       value: Champions_Orejona_LOD1 (1)
@@ -4990,7 +4990,7 @@ Prefab:
     - target: {fileID: 2300000, guid: ae560ae994b84794d8b5ecb56ffbd153, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4e4eeb1b70c73784aacd1261dfd93cbf, type: 2}
+      objectReference: {fileID: 2100000, guid: 89527a80b40a57f41ada156d25f3df9e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ae560ae994b84794d8b5ecb56ffbd153, type: 3}
   m_IsPrefabParent: 0
