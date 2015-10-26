@@ -39,7 +39,6 @@ public class SyncCameraTransform : MonoBehaviour {
 			cameraSynced.transform.rotation = point.transform.rotation;
 			AddPitch(Player.Instance.cameraPitch * Time.deltaTime);
 			cameraSynced.transform.Rotate(Vector3.right, -_currentPitch);
-			Debug.Log(cameraSynced.transform.localEulerAngles.x);
 			/*transform.localEulerAngles = new Vector3(
 					Mathf.Clamp(transform.localEulerAngles.x, MIN_PITCH, MAX_PITCH),
 					transform.localEulerAngles.y,

@@ -28,10 +28,13 @@ public class Locomotion : MonoBehaviour {
 	[HideInInspector]
 	public float rotation = 0f;
 	
+	private Quaternion _initialRotation;
+	private Quaternion _lastRotation;
 
 	void Start () 
 	{
 		_animator = GetComponent<Animator>();
+		_initialRotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
 	
 		if (_animator == null) return;
 		if (_animator.layerCount >= 2)
@@ -72,6 +75,12 @@ public class Locomotion : MonoBehaviour {
 			//*/
 		}
 	}
+
+	void LateUpdate() {
+		//STABILIZE X AND Z
+		transform.rotation = new Quaternion(_initialRotation.x, transform.rotation.y, _initialRotation.z, transform.rotation.w);
+		_lastRotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+	}
 	
 	public void StopMoving() {
 		movement = 0f;
@@ -99,7 +108,8 @@ public class Locomotion : MonoBehaviour {
 		if (Mathf.Abs(rotation) < ROTATION_TO_BACK_THRESHOLD) {
 			float normalizedRotation = (rotation/ROTATION_TO_BACK_THRESHOLD);
 			float normalizedRotation3 = Mathf.Pow(normalizedRotation, 3);
-			
+
+			transform.rotation = _lastRotation;
 			transform.Rotate(Vector3.up, normalizedRotation * 180 * Time.deltaTime);
 			
 			_animator.SetFloat("Forward", 1 - Mathf.Abs(normalizedRotation3) );

@@ -168,7 +168,7 @@ public class FollowAvatar : MonoBehaviour {
 			}
 		}
 		
-		if (timeWalking > TIME_WALKING_TO_FACE_CAMERA) {
+		if (timeWalking > TIME_WALKING_TO_FACE_CAMERA) {	
 			transform.rotation = Quaternion.Lerp(transform.rotation, _followedAvatar.rotation, RotationSpeed * Time.deltaTime);
 		}
 	}
