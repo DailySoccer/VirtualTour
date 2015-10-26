@@ -96,7 +96,7 @@ public class Locomotion : MonoBehaviour {
 	private void DirectMovement() {
 		_animator.SetFloat("Speed", movement);
 		_animator.SetFloat("Forward", 1f);
-		_animator.SetFloat("Direction", 0f);
+		//_animator.SetFloat("Direction", 0f);
 		
 		transform.Rotate(Vector3.up, rotation);
 	}
