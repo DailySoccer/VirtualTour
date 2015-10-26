@@ -9,6 +9,7 @@ public class GUIContentScreen : UIScreen {
 	public ContentCubemapController ContentCubeMapUI;
 	public ContentImageController ContentImageUI;
 	public ContentModel3DController ContentModel3DUI;
+	public ContentVideoController ContentVideoUI;
 
 	public override void Awake () {
 		base.Awake ();
