@@ -4,12 +4,15 @@ using System.Collections;
 
 public class GUIContentScreen : UIScreen {
 
+	public GameCanvasManager GameCanvasManager;
+
 	public Button NextButton;
 	public Button PrevButton;
 	public ContentCubemapController ContentCubeMapUI;
 	public ContentImageController ContentImageUI;
 	public ContentModel3DController ContentModel3DUI;
 	public ContentVideoController ContentVideoUI;
+	public ContentInfoController ContentInfoUI;
 
 	public override void Awake () {
 		base.Awake ();
@@ -33,6 +36,15 @@ public class GUIContentScreen : UIScreen {
 		}
 	}
 
+	public void HideScreen(UIScreen uiScreen) {
+		if (ContentModel3DUI.gameObject.activeInHierarchy) {
+			CloseModel3D();
+			return;
+		}
+
+		GameCanvasManager.HideScreenWithAnim(uiScreen);
+	}
+
 	void OpenContent() {
 		NextButton.gameObject.SetActive(false);
 		PrevButton.gameObject.SetActive(false);
@@ -42,6 +54,10 @@ public class GUIContentScreen : UIScreen {
 		}
 		else if (ContentCubeMap.ContentSelected != null) {
 			StartCoroutine(ContentCubeMapUI.ShowContents());
+		}
+		else if (ContentInfo.ContentSelected != null) {
+			_background.enabled = false;
+			StartCoroutine(ContentInfoUI.ShowContents());
 		}
 		else if (ContentModels.ContentSelected != null) {
 			_background.enabled = false;
@@ -54,7 +70,7 @@ public class GUIContentScreen : UIScreen {
 
 		UpdateButtons ();
 	}
-	
+
 	void CloseContent() {
 		if (ContentManager.Instance.ContentNear != null) {
 			StartCoroutine(ContentImageUI.HideContents());
@@ -64,6 +80,11 @@ public class GUIContentScreen : UIScreen {
 			StartCoroutine(ContentCubeMapUI.HideContents());
 		}
 		
+		if (ContentInfo.ContentSelected != null) {
+			_background.enabled = true;
+			StartCoroutine(ContentInfoUI.HideContents());
+		}
+
 		if (ContentModels.ContentSelected != null) {
 			_background.enabled = true;
 			StartCoroutine(ContentModel3DUI.HideContents());
@@ -74,7 +95,24 @@ public class GUIContentScreen : UIScreen {
 			StartCoroutine(ContentVideoUI.HideContents());
 		}
 	}
+
+	public void ShowContent3D() {
+		if (ContentInfo.ContentSelected != null) {
+			StartCoroutine(ContentInfoUI.HideContents());
+		}
+
+		if (ContentModels.ContentSelected != null) {
+			_background.enabled = false;
+			StartCoroutine(ContentModel3DUI.ShowContents());
+		}
+	}
+
+	void CloseModel3D() {
+		StartCoroutine(ContentModel3DUI.HideContents());
+		StartCoroutine(ContentInfoUI.ShowContents());
+	}
 	
+
 	public void PrevContent() {
 		if (ContentImageUI.gameObject.activeSelf) {
 			ContentImageUI.Prev();

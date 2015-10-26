@@ -271,6 +271,9 @@ public class RoomManager : Photon.PunBehaviour {
 		else if (ContentVideo.ContentSelected != null) {
 			pointOfInterest = ContentVideo.ContentSelected.PointOfInterest;
 		}
+		else if (ContentInfo.ContentSelected != null) {
+			pointOfInterest = ContentInfo.ContentSelected.PointOfInterest;
+		}
 
 		PointOfInterest = pointOfInterest;
 	}
