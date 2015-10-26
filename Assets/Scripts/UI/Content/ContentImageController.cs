@@ -91,8 +91,7 @@ public class ContentImageController : MonoBehaviour {
 		gameObject.SetActive(true);
 
 		// TODO: FAKE
-		Title.text = "Trofeo de la Liga 1932";
-		Debug.Log ("ShowContents: " + Title.text);
+		Title.text = "Don Alfredo Di Stéfano";
 
 		yield return StartCoroutine(CurrentContent.LoadContents());
 
