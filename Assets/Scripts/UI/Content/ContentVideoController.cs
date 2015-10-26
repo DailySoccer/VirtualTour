@@ -20,6 +20,8 @@ public class ContentVideoController : MonoBehaviour {
 	public IEnumerator ShowContents() {
 		gameObject.SetActive(true);
 
+		Title.text = ContentVideo.ContentSelected.Title;
+
 		yield return null;
 	}
 	
