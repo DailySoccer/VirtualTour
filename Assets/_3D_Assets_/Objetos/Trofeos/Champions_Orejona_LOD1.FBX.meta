@@ -10,6 +10,8 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Trofeo_Champions_LOD1
+    4300002: Orejona_high
+    4300004: copaEuropa_orejona_LOD1
   materials:
     importMaterials: 1
     materialName: 0
