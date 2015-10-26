@@ -15,19 +15,31 @@ public class GameCanvasManager : CanvasManager
 		// Get Language Settings
 		switch (_mainManagerInstance.CurrentLanguage) {
 		case "es":
-			GameObject.Find("Toggle Spanish").GetComponent<UnityEngine.UI.Toggle>().isOn = true;
+			GameObject toggleSpanish = GameObject.Find("Toggle Spanish");
+			if (toggleSpanish != null){
+				toggleSpanish.GetComponent<UnityEngine.UI.Toggle>().isOn = true;
+			}
 			break;
 		case "en":
-			GameObject.Find("Toggle English").GetComponent<UnityEngine.UI.Toggle>().isOn = true;
+			GameObject toggleEnglish = GameObject.Find("Toggle English");
+			if (toggleEnglish != null){
+				GameObject.Find("Toggle English").GetComponent<UnityEngine.UI.Toggle>().isOn = true;
+			}
 			break;
 		}
 		// Get Sound Settings
-		_soundsToggle = GameObject.Find("Sounds").GetComponent<UnityEngine.UI.Toggle>();
-		_soundsToggle.isOn = _mainManagerInstance.SoundEnabled;
+		GameObject toggleSounds = GameObject.Find ("Sounds");
+		if (toggleSounds != null) {
+			_soundsToggle = toggleSounds.GetComponent<UnityEngine.UI.Toggle> ();
+			_soundsToggle.isOn = _mainManagerInstance.SoundEnabled;
+		}
 		
 		// Get Music Settings
-		_musicToggle = GameObject.Find("Music").GetComponent<UnityEngine.UI.Toggle>();
-		_musicToggle.isOn = _mainManagerInstance.MusicEnabled;
+		GameObject toggleMusic = GameObject.Find ("Music");
+		if (toggleSounds != null) {
+			_musicToggle = toggleSounds.GetComponent<UnityEngine.UI.Toggle> ();
+			_musicToggle.isOn = _mainManagerInstance.MusicEnabled;
+		}
 
 		_mainManagerInstance.OnMessagesUnreadedEvent += OnUnreadedMessages;
 	}
