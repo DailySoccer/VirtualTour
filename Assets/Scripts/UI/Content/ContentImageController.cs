@@ -90,6 +90,10 @@ public class ContentImageController : MonoBehaviour {
 	public IEnumerator ShowContents() {
 		gameObject.SetActive(true);
 
+		// TODO: FAKE
+		Title.text = "Trofeo de la Liga 1932";
+		Debug.Log ("ShowContents: " + Title.text);
+
 		yield return StartCoroutine(CurrentContent.LoadContents());
 
 		Index = 0;
