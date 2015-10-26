@@ -6,7 +6,8 @@ using System.Linq;
 
 class TextureSwapAnimator : MonoBehaviour {
 	public Texture2D[] frames;
-
+	
+	[SerializeField]
 	float framesPerSecond = 10.0f;
 
 	void Start() {
