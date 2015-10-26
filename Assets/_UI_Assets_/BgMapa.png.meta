@@ -1,14 +1,13 @@
 fileFormatVersion: 2
-guid: 8754a9fb9f51a47e68a981adb23c5f63
-timeCreated: 1445897202
+guid: 381205413e45545d28dcb47c09891f94
+timeCreated: 1445896983
 licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: FakeMapa_0
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -31,7 +30,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -39,7 +38,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,17 +49,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: FakeMapa_0
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 236
-        width: 804
-        height: 556
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+    sprites: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
