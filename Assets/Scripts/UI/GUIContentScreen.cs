@@ -47,7 +47,11 @@ public class GUIContentScreen : UIScreen {
 			_background.enabled = false;
 			StartCoroutine(ContentModel3DUI.ShowContents());
 		}
-		
+		else if (ContentVideo.ContentSelected != null) {
+			_background.enabled = false;
+			StartCoroutine(ContentVideoUI.ShowContents());
+		}
+
 		UpdateButtons ();
 	}
 	
@@ -63,6 +67,11 @@ public class GUIContentScreen : UIScreen {
 		if (ContentModels.ContentSelected != null) {
 			_background.enabled = true;
 			StartCoroutine(ContentModel3DUI.HideContents());
+		}
+
+		if (ContentVideo.ContentSelected != null) {
+			_background.enabled = true;
+			StartCoroutine(ContentVideoUI.HideContents());
 		}
 	}
 	

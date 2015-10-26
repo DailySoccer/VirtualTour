@@ -69,7 +69,8 @@ public class GUIGameScreen : GUIScreen {
 		get {
 			return 	ContentManager.Instance.ContentNear != null || 
 					ContentCubeMap.ContentSelected != null		||
-					ContentModels.ContentSelected != null;
+					ContentModels.ContentSelected != null 		||
+					ContentVideo.ContentSelected != null;
 		}
 	}
 	
