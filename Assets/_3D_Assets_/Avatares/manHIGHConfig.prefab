@@ -306,6 +306,7 @@ GameObject:
   - 114: {fileID: 11435080}
   - 114: {fileID: 11459896}
   - 54: {fileID: 5453786}
+  - 114: {fileID: 11485972}
   m_Layer: 0
   m_Name: manHIGHConfig
   m_TagString: Untagged
@@ -1577,6 +1578,17 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &11485972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc71b98c0bfd47ec83a0ed40b1e068b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &13674026
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1587,9 +1599,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: .400000006
-  m_Height: 2
+  m_Height: 1.79999995
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: .899999976, z: 0}
 --- !u!137 &13710990
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1889,7 +1901,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Center.y
-      value: 0
+      value: .899999976
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Mass
@@ -1898,6 +1910,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_UseGravity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Height
+      value: 1.79999995
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -126,7 +126,7 @@ public class MovementController : MonoBehaviour {
 		
 		//isMoving = true;
 		//movement.magnitude
-    	PlayerTransform.GetComponent<Locomotion>().movement = 1f;
+		PlayerTransform.GetComponent<Locomotion>().movement = movement.magnitude;
     	PlayerTransform.GetComponent<Locomotion>().rotation = appliedRotation;
     }	
 }
