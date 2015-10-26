@@ -31,8 +31,7 @@ public class Locomotion : MonoBehaviour {
 	private Quaternion _initialRotation;
 	private Quaternion _lastRotation;
 
-	void Start () 
-	{
+	void Start() {
 		_animator = GetComponent<Animator>();
 		_initialRotation = new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w);
 	
@@ -41,8 +40,7 @@ public class Locomotion : MonoBehaviour {
 			_animator.SetLayerWeight(1, 1);
 	}
 		
-	void Update () 
-	{
+	void Update() {
 		if (!_animator) {
 			_animator = GetComponent<Animator>();
 		}
@@ -88,8 +86,7 @@ public class Locomotion : MonoBehaviour {
 	}
 
 	
-	void OnCollisionEnter(Collision collision)
-	{
+	void OnCollisionEnter(Collision collision) {
 		Debug.Log(collision.collider.name + ":" + name);
 	}
 	

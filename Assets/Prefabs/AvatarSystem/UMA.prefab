@@ -246,7 +246,6 @@ MonoBehaviour:
   assetRecipes:
   - {fileID: 134000, guid: 4387e028b1db24a81bd0ed644f80e08a, type: 2}
   - {fileID: 112762, guid: 29f6f38f5910ccb4faf1711e89ed4b04, type: 2}
-  - {fileID: 155386, guid: 08351500a34444decb6f83736b43d2e4, type: 2}
 --- !u!114 &11424084
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -6,6 +6,11 @@ public class ContentModel3DController : MonoBehaviour {
 	const float DISTANCE_NEXT_OBJECT = 10f;
 	const float TIME_CHANGE_OBJECT = 1f;
 	
+	const float PITCH_THRESHOLD = 35;
+
+	private float _horizontalRotation;
+	private float _verticalRotation;
+	
 	Vector3 HIDE_TO_LEFT = new Vector3(0,0,DISTANCE_NEXT_OBJECT);
 	Vector3 HIDE_TO_RIGHT = new Vector3(0,0,DISTANCE_NEXT_OBJECT);
 	Vector3 SHOW_TO_LEFT = new Vector3(0,0,DISTANCE_NEXT_OBJECT);
@@ -122,7 +127,7 @@ public class ContentModel3DController : MonoBehaviour {
 		_currentModel3D = CurrentContent.GetInstance(Index);
 		_currentModel3D.layer = LayerMask.NameToLayer("Model3D");
 		_currentModel3D.transform.position = CameraModel.transform.FindChild("Point").position - (_currentModel3D.GetComponent<Renderer>().bounds.center - _currentModel3D.transform.position);
-		
+
 		_currentModel3D.SetActive(true);
 		StartCoroutine(MoveToShow(_currentModel3D, desp, 1));
 
@@ -190,9 +195,25 @@ public class ContentModel3DController : MonoBehaviour {
 			}
 			_theSpeed = Vector3.Lerp(_theSpeed, Vector3.zero, Time.deltaTime * _lerpSpeed);
 		}
+
+		if (Mathf.Abs(_theSpeed.x) > Mathf.Abs(_theSpeed.y)) {
+			_theSpeed.y /= 10;
+		} else {
+			_theSpeed.x /= 10;
+		}
+
+		_horizontalRotation -= _theSpeed.x * _rotationSpeed;
+		_verticalRotation = Mathf.Clamp(_verticalRotation + _theSpeed.y * _rotationSpeed, -PITCH_THRESHOLD,  PITCH_THRESHOLD);
+
 		
-		model.transform.Rotate(CameraModel.transform.up * _theSpeed.x * _rotationSpeed, Space.World);
-		// model.transform.Rotate(_cameraModel.transform.right * theSpeed.y * rotationSpeed, Space.World);
+		//model.transform.rotation = Quaternion.Euler(270 + _verticalRotation, _horizontalRotation, 0f);
+		model.transform.rotation = Quaternion.identity;
+		model.transform.Rotate(model.transform.right * -90f);
+		model.transform.Rotate(CameraModel.transform.up * -_horizontalRotation, Space.World);
+		model.transform.Rotate(CameraModel.transform.right * _verticalRotation, Space.World);
+		/*
+		model.transform.Rotate(model.transform.up *  _horizontalRotation);
+		model.transform.Rotate(model.transform.right * _verticalRotation);*/
 	}
 
 	bool _hiding = false;
