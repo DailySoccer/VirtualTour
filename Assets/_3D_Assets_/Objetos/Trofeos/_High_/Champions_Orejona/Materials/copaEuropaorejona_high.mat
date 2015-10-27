@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: copaEuropaorejona_high
-  m_Shader: {fileID: 4800000, guid: 6c878572b37d9444fbe97119bbf1c765, type: 3}
+  m_Shader: {fileID: 4800000, guid: 443b56ce87253b747bde18cfac9ea1f6, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -108,7 +108,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 5.30000019
+        second: 5.25
       data:
         first:
           name: _Parallax

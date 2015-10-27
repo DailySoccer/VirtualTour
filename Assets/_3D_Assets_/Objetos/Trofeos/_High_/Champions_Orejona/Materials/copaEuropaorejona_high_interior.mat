@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: copaEuropaorejona_high_interior
-  m_Shader: {fileID: 4800000, guid: 173ea76c55d104a85a85a4a8ebaccf2a, type: 3}
+  m_Shader: {fileID: 4800000, guid: 443b56ce87253b747bde18cfac9ea1f6, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
