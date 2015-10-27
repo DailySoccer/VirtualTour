@@ -1299,7 +1299,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 112116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   localizedKey: TVB.Chat.SendButton
@@ -2181,7 +2181,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 22420398}
   m_Direction: 2
   m_Value: 0
-  m_Size: .999999702
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2524,7 +2524,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 142002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   localizedKey: TVB.Chat.WirteMessagePlaceholder
@@ -2677,8 +2677,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11458254}
   m_HandleRect: {fileID: 22482634}
   m_Direction: 2
-  m_Value: 1
-  m_Size: .999999583
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
