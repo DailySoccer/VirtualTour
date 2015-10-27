@@ -8,7 +8,7 @@ PlayerSettings:
   defaultScreenOrientation: 3
   targetDevice: 2
   targetResolution: 3
-  accelerometerFrequency: 60
+  accelerometerFrequency: 0
   companyName: UnusualWonder
   productName: Tour Virtual Bernabeu
   defaultCursor: {fileID: 0}
