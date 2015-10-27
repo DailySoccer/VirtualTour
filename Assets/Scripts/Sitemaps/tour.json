@@ -8,10 +8,26 @@
 			"player_visible": false,
 			"max_players": 1,
 			"doors": {
-				"AVATAR": "ROOM1"
+				"AVATAR": "ESTADIO"
 			},
 			"bundles": {
 				"SCENE": "scene/avatar_select"
+			}
+		},
+		{ 
+			"id": "ESTADIO",
+			"name": "Estadio Santiago Bernabéu",
+			"scene": "Bernabeu_1",
+			"gui": "GAME",
+			"max_players": 16,
+			"doors": {
+				"PUERTA1": "AVATAR",
+				"PUERTA2": "ROOM1",
+				"PUERTA3": "ROOM1",
+				"PUERTA4": "ROOM6",
+			},
+			"bundles": {
+				"SCENE": "scene/estadio_bernabeu"
 			}
 		},
 		{ 
@@ -22,7 +38,7 @@
 			"max_players": 16,
 			"doors": {
 				"PUERTA1": "ROOM2",
-				"PUERTA2": "ROOM1#PUERTA1"
+				"PUERTA2": "ESTADIO"
 			},
 			"bundles": {
 				"SCENE": "scene/mejor_club_mundo",
@@ -129,19 +145,6 @@
 				"SCENE": "scene/vestuarios",
 			},
 			"contents": {
-			}
-		},
-		{ 
-			"id": "ESTADIO",
-			"name": "Estadio Santiago Bernabéu",
-			"scene": "Bernabeu_1",
-			"gui": "GAME",
-			"max_players": 16,
-			"doors": {
-				"PUERTA1": "ROOM5",
-			},
-			"bundles": {
-				"SCENE": "scene/estadio_bernabeu"
 			}
 		}
 	],
