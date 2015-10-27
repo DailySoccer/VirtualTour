@@ -525,9 +525,27 @@ Prefab:
       propertyPath: m_Name
       value: Content - Distefano
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11498666, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+    - {fileID: 11407698, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &138128273 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 113700, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+  m_PrefabInternal: {fileID: 138128272}
+--- !u!114 &138128274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 138128273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90f1edfad02b54c69abaa91cc81cee67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentKey: 
 --- !u!1 &159004346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1116,8 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 11407698, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+    - {fileID: 11498666, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &522413329 stripped
@@ -3541,6 +3561,8 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+    - {fileID: 11407698, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+    - {fileID: 11498666, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1152730256 stripped
