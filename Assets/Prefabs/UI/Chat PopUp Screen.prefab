@@ -99,7 +99,7 @@ GameObject:
   - 224: {fileID: 22483542}
   - 222: {fileID: 22263412}
   - 114: {fileID: 11444506}
-  - 114: {fileID: 11415798}
+  - 114: {fileID: 11424026}
   m_Layer: 5
   m_Name: 'Label Text: Send'
   m_TagString: Untagged
@@ -188,7 +188,7 @@ GameObject:
   - 224: {fileID: 22440064}
   - 222: {fileID: 22211020}
   - 114: {fileID: 11472072}
-  - 114: {fileID: 11482778}
+  - 114: {fileID: 11416456}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -410,7 +410,7 @@ GameObject:
   - 224: {fileID: 22435424}
   - 222: {fileID: 22270514}
   - 114: {fileID: 11407436}
-  - 114: {fileID: 11469384}
+  - 114: {fileID: 11453942}
   m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
@@ -625,7 +625,7 @@ GameObject:
   - 224: {fileID: 22430598}
   - 222: {fileID: 22210008}
   - 114: {fileID: 11407894}
-  - 114: {fileID: 11462678}
+  - 114: {fileID: 11400362}
   m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
@@ -958,6 +958,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11400362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171342}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKey: TVB.Chat.SearUserPlaceholder
 --- !u!114 &11400546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1119,7 +1131,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: Escribe tu mensaje...
 --- !u!114 &11407894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1291,18 +1303,6 @@ MonoBehaviour:
   m_PreferredHeight: -1
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
---- !u!114 &11415798
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 112116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localizedKey: TVB.Chat.SendButton
 --- !u!114 &11415806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1400,6 +1400,18 @@ MonoBehaviour:
   m_SelectionColor: {r: .65882355, g: .807843149, b: 1, a: .752941191}
   m_Text: 
   m_CaretBlinkRate: .850000024
+--- !u!114 &11416456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118500}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKey: TVB.UI.Back
 --- !u!114 &11417166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1585,6 +1597,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11424026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112116}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKey: TVB.Chat.SendButton
 --- !u!114 &11424490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1927,7 +1951,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SEND
+  m_Text: ENVIAR
 --- !u!114 &11444682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2142,6 +2166,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11453942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 142002}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKey: TVB.Chat.WirteMessagePlaceholder
 --- !u!114 &11455172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2180,7 +2216,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 11407940}
   m_HandleRect: {fileID: 22420398}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2312,18 +2348,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &11462678
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 171342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localizedKey: TVB.Chat.SearUserPlaceholder
 --- !u!114 &11462848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2516,18 +2540,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &11469384
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 142002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localizedKey: TVB.Chat.WirteMessagePlaceholder
 --- !u!114 &11470704
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2839,18 +2851,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   screenName: Messages Window
   currentState: 
---- !u!114 &11482778
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 118500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localizedKey: TVB.UI.Back
 --- !u!114 &11482830
 MonoBehaviour:
   m_ObjectHideFlags: 1

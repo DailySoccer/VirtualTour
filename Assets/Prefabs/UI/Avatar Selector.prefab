@@ -10,7 +10,7 @@ GameObject:
   - 224: {fileID: 22491010}
   - 222: {fileID: 22296652}
   - 114: {fileID: 11497268}
-  - 114: {fileID: 11441762}
+  - 114: {fileID: 11414482}
   m_Layer: 5
   m_Name: 'Text Label: Anterior'
   m_TagString: Untagged
@@ -46,7 +46,7 @@ GameObject:
   - 224: {fileID: 22446450}
   - 222: {fileID: 22297818}
   - 114: {fileID: 11456602}
-  - 114: {fileID: 11456572}
+  - 114: {fileID: 11484612}
   m_Layer: 5
   m_Name: 'Text Label: Siguiente'
   m_TagString: Untagged
@@ -81,6 +81,7 @@ GameObject:
   - 224: {fileID: 22450750}
   - 222: {fileID: 22231738}
   - 114: {fileID: 11490768}
+  - 114: {fileID: 11467566}
   m_Layer: 5
   m_Name: Label Text Title
   m_TagString: Untagged
@@ -286,6 +287,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11414482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126124}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKey: TVB.AvatarSelection.Previous
 --- !u!114 &11427228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -313,18 +326,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &11441762
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 126124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localizedKey: TVB.AvatarSelection.Previous
 --- !u!114 &11454642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -379,18 +380,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &11456572
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  localizedKey: TVB.AvatarSelection.Next
 --- !u!114 &11456602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -502,6 +491,18 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11467566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132922}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKey: TVB.AvatarSelection.AvatarSelection
 --- !u!114 &11468280
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -529,6 +530,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11484612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132064}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localizedKey: TVB.AvatarSelection.Next
 --- !u!114 &11487690
 MonoBehaviour:
   m_ObjectHideFlags: 1
