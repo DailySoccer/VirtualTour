@@ -628,6 +628,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
+  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -940,7 +941,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 111988, guid: f286bcd6f4cf548749e9ebf7748c2679, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11407316, guid: f286bcd6f4cf548749e9ebf7748c2679, type: 2}
