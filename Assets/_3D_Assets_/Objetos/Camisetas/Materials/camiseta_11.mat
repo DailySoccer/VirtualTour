@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: camiseta_11
-  m_Shader: {fileID: 4800000, guid: f5d3452da497a7e4089eea6e57fe4901, type: 3}
+  m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -32,6 +32,13 @@ Material:
       data:
         first:
           name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SpecTex
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -78,13 +85,6 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _SpecTex
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -102,6 +102,14 @@ Material:
         first:
           name: _Shininess
         second: 2.99000001
+      data:
+        first:
+          name: _SpecInt
+        second: .109999999
+      data:
+        first:
+          name: _Fresnel
+        second: .537
       data:
         first:
           name: _Parallax
@@ -138,14 +146,6 @@ Material:
         first:
           name: _Metallic
         second: 0
-      data:
-        first:
-          name: _SpecInt
-        second: .109999999
-      data:
-        first:
-          name: _Fresnel
-        second: .537
     m_Colors:
       data:
         first:

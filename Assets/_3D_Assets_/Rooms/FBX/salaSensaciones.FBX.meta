@@ -32,6 +32,7 @@ ModelImporter:
     100048: salaSensaciones
     100050: vitrinasBalonOro
     100052: salidaEmerg001
+    100054: marcoVitrinaBalonesOro
     400000: collider
     400002: holograma_tactil
     400004: hueco_distincion
@@ -59,6 +60,7 @@ ModelImporter:
     400048: salaSensaciones
     400050: vitrinasBalonOro
     400052: salidaEmerg001
+    400054: marcoVitrinaBalonesOro
     2300000: collider
     2300002: holograma_tactil
     2300004: hueco_distincion
@@ -85,6 +87,7 @@ ModelImporter:
     2300046: salaSensaciones
     2300048: vitrinasBalonOro
     2300050: salidaEmerg001
+    2300052: marcoVitrinaBalonesOro
     3300000: collider
     3300002: holograma_tactil
     3300004: hueco_distincion
@@ -111,6 +114,7 @@ ModelImporter:
     3300046: salaSensaciones
     3300048: vitrinasBalonOro
     3300050: salidaEmerg001
+    3300052: marcoVitrinaBalonesOro
     4300000: sala
     4300002: videoWall_jugadores
     4300004: vitrinaCamisetas
@@ -137,6 +141,7 @@ ModelImporter:
     4300046: salaSensaciones
     4300048: vitrinasBalonOro
     4300050: salidaEmerg001
+    4300052: marcoVitrinaBalonesOro
     7400000: Take 001
     9500000: //RootNode
   materials:
