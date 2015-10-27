@@ -11,6 +11,7 @@ public class GuiMapScreen : GUIPopUpScreen {
 	}
 
 	public override void Start() {
+		/*
 		if (_map == null) {
 			_map = new List<Button>();
 
@@ -38,9 +39,10 @@ public class GuiMapScreen : GUIPopUpScreen {
 				}
 			}
 		}
+		*/
 	}
 
-	void HandleRoom(string roomKey) {
+	public void HandleRoom(string roomKey) {
 		Debug.LogWarning("HandleRoom: " + roomKey);
 		RoomManager.Instance.GotoRoom(roomKey);
 	}
