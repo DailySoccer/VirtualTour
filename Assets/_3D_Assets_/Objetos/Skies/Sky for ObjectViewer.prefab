@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 494460}
   - 114: {fileID: 11479834}
+  - 114: {fileID: 11444992}
   m_Layer: 0
   m_Name: Sky for ObjectViewer
   m_TagString: Untagged
@@ -70,7 +71,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 174874}
-  m_LocalRotation: {x: .0553362742, y: -.786928058, z: .0713391155, w: .610403776}
+  m_LocalRotation: {x: .173860371, y: -.770631909, z: .162277356, w: .591240287}
   m_LocalPosition: {x: -.308269739, y: .294035077, z: .328045964}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -147,6 +148,17 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11444992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b921ade84bb4a8c8f99c5ec3c5f54c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11451444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -158,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c992e8fbb96f7b3498a28a9e664f95df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specularCube: {fileID: 8900000, guid: d755b1ac39dee2f4e8cde138e4d62f26, type: 2}
+  specularCube: {fileID: 8900000, guid: ee9070beca079a2439586ca8d9029507, type: 3}
   skyboxCube: {fileID: 0}
   IsProbe: 0
   dimensions:
@@ -172,49 +184,49 @@ MonoBehaviour:
   specIntensityLM: 1
   diffIntensityLM: 1
   hdrSky: 1
-  hdrSpec: 1
+  hdrSpec: 0
   linearSpace: 0
   autoDetectColorSpace: 1
   hasDimensions: 0
   SH:
     c:
-    - 2.2495532
-    - 2.48172092
-    - 3.06340408
-    - .380839109
-    - .574032009
-    - .746561289
-    - .163329199
-    - .112265229
-    - .0430469923
-    - .555288136
-    - .539581954
-    - .420042098
-    - .0360474214
-    - .0452075973
-    - .0379801393
-    - .0159657821
-    - .0127213253
-    - .000643604842
-    - -.177578241
-    - -.272418112
-    - -.421741813
-    - .12117976
-    - .182599008
-    - .262822181
-    - .279182196
-    - .462716907
-    - .727717519
+    - 1.53118134
+    - 1.54535091
+    - 1.44884908
+    - .208523631
+    - .210992962
+    - .183732033
+    - -.365657747
+    - -.364124298
+    - -.369908214
+    - -.0767341852
+    - -.0817088634
+    - -.0567212813
+    - -.0108288219
+    - -.010364932
+    - -.00684586866
+    - -.0221604258
+    - -.0224253628
+    - -.0232173689
+    - .0316818766
+    - .0325164534
+    - .0280041434
+    - -.0988314599
+    - -.098575294
+    - -.0990744084
+    - -.0421977155
+    - -.0432851128
+    - -.0331077725
     cBuffer:
-    - {x: .634587228, y: .700080514, z: .864170313, w: 0}
-    - {x: .186078936, y: .280473471, z: .364771694, w: 0}
-    - {x: .0798030496, y: .0548530705, z: .021032868, w: 0}
-    - {x: .271315157, y: .263641089, z: .205233619, w: 0}
-    - {x: .0393835567, y: .0493914932, z: .0414951444, w: 0}
-    - {x: .0174433906, y: .0138986651, z: .000703169499, w: 0}
-    - {x: -.0560066812, y: -.0859183744, z: -.133013815, w: 0}
-    - {x: .132394761, y: .199498266, z: .287145972, w: 0}
-    - {x: .152510047, y: .252770334, z: .397533327, w: 0}
+    - {x: .431938261, y: .435935408, z: .408712745, w: 0}
+    - {x: .101885162, y: .103091687, z: .0897719264, w: 0}
+    - {x: -.178661287, y: -.177912042, z: -.180738077, w: 0}
+    - {x: -.0374925137, y: -.0399231538, z: -.0277141593, w: 0}
+    - {x: -.0118310135, y: -.0113241905, z: -.00747944368, w: 0}
+    - {x: -.0242113397, y: -.0245007966, z: -.0253661014, w: 0}
+    - {x: .00999219716, y: .010255415, z: .00883227121, w: 0}
+    - {x: -.107978165, y: -.107698292, z: -.108243592, w: 0}
+    - {x: -.0230515245, y: -.0236455426, z: -.018085923, w: 0}
   CustomSH: {fileID: 0}
   _blackCube: {fileID: 0}
   _SkyboxMaterial: {fileID: 0}
@@ -241,10 +253,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LinearSpace: 1
-  _BlendingSupport: 1
-  _ProjectionSupport: 1
+  _BlendingSupport: 0
+  _ProjectionSupport: 0
   GameAutoApply: 0
-  EditorAutoApply: 1
+  EditorAutoApply: 0
   AutoMaterial: 0
   IgnoredLayerMask: 0
   _IgnoredLayers: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -256,7 +268,7 @@ MonoBehaviour:
     blendTime: .25
   LocalBlendTime: .25
   GlobalBlendTime: .25
-  _ShowSkybox: 0
+  _ShowSkybox: 1
   ProbeCamera: {fileID: 0}
   SkiesToProbe: []
   ProbeExponent: 512

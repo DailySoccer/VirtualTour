@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: copaEuropaorejona_high
-  m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 6c878572b37d9444fbe97119bbf1c765, type: 3}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -82,7 +82,7 @@ Material:
         first:
           name: _SpecTex
         second:
-          m_Texture: {fileID: 2800000, guid: 14320d80c95617d44938d60753edaeae, type: 3}
+          m_Texture: {fileID: 2800000, guid: 0ffe5410bb57f744689f13d9f54c9f9d, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -148,7 +148,7 @@ Material:
       data:
         first:
           name: _SpecInt
-        second: .610000014
+        second: 1.61000001
       data:
         first:
           name: _Fresnel
