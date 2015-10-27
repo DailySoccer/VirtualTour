@@ -42,7 +42,9 @@ public class GUIContentScreen : UIScreen {
 			return;
 		}
 
-		GameCanvasManager.HideScreenWithAnim(uiScreen);
+		if (GameCanvasManager != null) {
+			GameCanvasManager.HideScreenWithAnim(uiScreen);
+		}
 	}
 
 	void OpenContent() {
