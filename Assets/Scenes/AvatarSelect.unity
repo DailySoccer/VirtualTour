@@ -172,7 +172,7 @@ GameObject:
   - 114: {fileID: 259505107}
   - 114: {fileID: 259505106}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: FakeBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1196,7 +1196,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22402790, guid: 53a26340970de439292bd13237ec51cd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.48374225e-08
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 22402790, guid: 53a26340970de439292bd13237ec51cd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1258,14 +1258,13 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
-    - target: {fileID: 11452270, guid: 53a26340970de439292bd13237ec51cd, type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: d91f5368fe604b24198b734aad8fff48,
-        type: 3}
-    - target: {fileID: 11452270, guid: 53a26340970de439292bd13237ec51cd, type: 2}
-      propertyPath: m_Color.a
-      value: .627451003
+    - target: {fileID: 22454310, guid: 53a26340970de439292bd13237ec51cd, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454310, guid: 53a26340970de439292bd13237ec51cd, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a26340970de439292bd13237ec51cd, type: 2}
