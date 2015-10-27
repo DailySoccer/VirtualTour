@@ -321,7 +321,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 126124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   localizedKey: TVB.AvatarSelection.Previous
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 132064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3cfb8e722b144b9ea114b608a62702e, type: 3}
+  m_Script: {fileID: -1444799201, guid: 151fea9ca90494fc5add8c17ae82c5f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   localizedKey: TVB.AvatarSelection.Next
@@ -872,11 +872,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22432868}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 13, y: -25}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -23.7999992, y: -26.8999996}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 1, y: 1}
 --- !u!224 &22491010
 RectTransform:
   m_ObjectHideFlags: 1
