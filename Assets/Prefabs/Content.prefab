@@ -11,7 +11,8 @@ GameObject:
   - 33: {fileID: 3326894}
   - 65: {fileID: 6593916}
   - 23: {fileID: 2330054}
-  - 114: {fileID: 11441952}
+  - 114: {fileID: 11498666}
+  - 114: {fileID: 11407698}
   m_Layer: 0
   m_Name: Content
   m_TagString: Content
@@ -26,8 +27,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 113700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.23000002, y: 1.52999997, z: 24.2000008}
-  m_LocalScale: {x: 2, y: 3, z: 3.39836097}
+  m_LocalPosition: {x: -43.3699989, y: .594989777, z: -10.54}
+  m_LocalScale: {x: 9.33251381, y: 3.99650145, z: 4.2439599}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +75,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &11441952
+--- !u!114 &11407698
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -82,10 +83,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 113700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90f1edfad02b54c69abaa91cc81cee67, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c6725cfd5e344750ac17c069fa167fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ContentKey: 
+  Title: Champions League 2014
+  Image: {fileID: 0}
+  Description: 
+  Money: 0
+--- !u!114 &11498666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 521773ab45ca54d1c9fe10c20a5512a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Models:
+  - {fileID: 162672, guid: 8e68f1224b011654d86191578cbeb401, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

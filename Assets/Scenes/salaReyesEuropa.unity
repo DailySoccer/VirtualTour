@@ -37,9 +37,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: b038697ef705eb34eac26db15de706d3, type: 3}
   m_Sun: {fileID: 0}
---- !u!127 &3
-LevelGameManager:
-  m_ObjectHideFlags: 0
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -68,6 +65,7 @@ LightmapSettings:
     m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
   m_LightmapSnapshot: {fileID: 112000000, guid: 709104b82099d4c419fad708a7683ea5,
     type: 2}
   m_RuntimeCPUUsage: 25
@@ -521,7 +519,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 113700, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_Name
@@ -1088,7 +1086,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 113700, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_Name
@@ -1099,7 +1097,7 @@ Prefab:
       value: 5.51954937
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 11441952, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &522413329 stripped
@@ -1302,15 +1300,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 449662, guid: 8f19f0cf6cec61941956d8f113b7d91a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -28.6849995
+      value: -27.5690002
       objectReference: {fileID: 0}
     - target: {fileID: 449662, guid: 8f19f0cf6cec61941956d8f113b7d91a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.31900001
+      value: 1.64300001
       objectReference: {fileID: 0}
     - target: {fileID: 449662, guid: 8f19f0cf6cec61941956d8f113b7d91a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -3.35100007
+      value: -2.40899992
       objectReference: {fileID: 0}
     - target: {fileID: 449662, guid: 8f19f0cf6cec61941956d8f113b7d91a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3489,60 +3487,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 113700, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_Name
       value: Content - Champions
       objectReference: {fileID: 0}
-    - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 9.33251381
-      objectReference: {fileID: 0}
-    - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3.99650145
-      objectReference: {fileID: 0}
-    - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 4.2439599
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11441952, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1123622264 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 113700, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
-  m_PrefabInternal: {fileID: 1123622263}
---- !u!114 &1123622265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1123622264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521773ab45ca54d1c9fe10c20a5512a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Models:
-  - {fileID: 162672, guid: 8e68f1224b011654d86191578cbeb401, type: 2}
---- !u!114 &1123622266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1123622264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c6725cfd5e344750ac17c069fa167fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Title: Trofeo "Champions League" 2014
-  Image: {fileID: 0}
-  Description: 
-  Money: 0
 --- !u!1001 &1152730255
 Prefab:
   m_ObjectHideFlags: 0
@@ -3580,14 +3533,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 113700, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_Name
       value: Content - Compra
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 11441952, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1152730256 stripped
@@ -4812,6 +4765,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
+  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
