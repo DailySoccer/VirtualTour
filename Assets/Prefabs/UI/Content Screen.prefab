@@ -381,7 +381,7 @@ GameObject:
   - 224: {fileID: 22481546}
   - 222: {fileID: 22250774}
   - 114: {fileID: 11413956}
-  - 114: {fileID: 11466732}
+  - 114: {fileID: 11402272}
   m_Layer: 5
   m_Name: ContentInfoUI Compra
   m_TagString: Untagged
@@ -984,6 +984,36 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11402272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 127788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf0f989c71a244baa12cb124f63b29c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Title: {fileID: 11450860}
+  Description: {fileID: 0}
+  Imagen: {fileID: 11451800}
+  Show3D:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!114 &11406352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1405,6 +1435,7 @@ MonoBehaviour:
   ContentModel3DUI: {fileID: 11419506}
   ContentVideoUI: {fileID: 11430434}
   ContentInfoUI: {fileID: 11411434}
+  ContentInfoUICompra: {fileID: 11402272}
 --- !u!114 &11426762
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1859,7 +1890,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: HideScreen
+        m_MethodName: 
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2137,22 +2168,6 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
---- !u!114 &11466732
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 127788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65f6e053094944dbe81081d4275bdbce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IdContent: {fileID: 11417390}
-  Title: {fileID: 11450860}
-  Description: {fileID: 0}
-  Imagen: {fileID: 11451800}
-  Index: 0
 --- !u!114 &11467160
 MonoBehaviour:
   m_ObjectHideFlags: 1

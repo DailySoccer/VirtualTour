@@ -460,6 +460,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
+    - target: {fileID: 11445548, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2068864202}
     - target: {fileID: 11416108, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -863,19 +867,19 @@ Prefab:
       objectReference: {fileID: 1671584787}
     - target: {fileID: 22420398, guid: 1226dcf7bee924271a55152424362b15, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22420398, guid: 1226dcf7bee924271a55152424362b15, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22482634, guid: 1226dcf7bee924271a55152424362b15, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22482634, guid: 1226dcf7bee924271a55152424362b15, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22450500, guid: 1226dcf7bee924271a55152424362b15, type: 2}
       propertyPath: m_SizeDelta.y

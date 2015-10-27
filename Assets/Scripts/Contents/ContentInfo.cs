@@ -6,6 +6,7 @@ public class ContentInfo : MonoBehaviour {
 	public string Title;
 	public Sprite Image;
 	public string Description;
+	public bool Money = false;
 
 	static public ContentInfo ContentSelected;
 	

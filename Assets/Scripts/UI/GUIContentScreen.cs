@@ -13,6 +13,7 @@ public class GUIContentScreen : UIScreen {
 	public ContentModel3DController ContentModel3DUI;
 	public ContentVideoController ContentVideoUI;
 	public ContentInfoController ContentInfoUI;
+	public ContentInfoController ContentInfoUICompra;
 
 	public override void Awake () {
 		base.Awake ();
@@ -59,7 +60,7 @@ public class GUIContentScreen : UIScreen {
 		}
 		else if (ContentInfo.ContentSelected != null) {
 			_background.enabled = false;
-			StartCoroutine(ContentInfoUI.ShowContents());
+			StartCoroutine(ContentInfo.ContentSelected.Money ? ContentInfoUICompra.ShowContents() : ContentInfoUI.ShowContents());
 		}
 		else if (ContentModels.ContentSelected != null) {
 			_background.enabled = false;
@@ -84,7 +85,7 @@ public class GUIContentScreen : UIScreen {
 		
 		if (ContentInfo.ContentSelected != null) {
 			_background.enabled = true;
-			StartCoroutine(ContentInfoUI.HideContents());
+			StartCoroutine(ContentInfo.ContentSelected.Money ? ContentInfoUICompra.HideContents() : ContentInfoUI.HideContents());
 		}
 
 		if (ContentModels.ContentSelected != null) {
@@ -113,7 +114,9 @@ public class GUIContentScreen : UIScreen {
 		StartCoroutine(ContentModel3DUI.HideContents());
 		StartCoroutine(ContentInfoUI.ShowContents());
 	}
-	
+
+	public void BuyContent() {
+	}
 
 	public void PrevContent() {
 		if (ContentImageUI.gameObject.activeSelf) {
