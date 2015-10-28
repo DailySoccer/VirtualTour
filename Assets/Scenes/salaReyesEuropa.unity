@@ -499,7 +499,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -6.20564842
+      value: -5.5999999
       objectReference: {fileID: 0}
     - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_LocalRotation.x
@@ -519,11 +519,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 113700, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
       propertyPath: m_Name
       value: Content - Distefano
+      objectReference: {fileID: 0}
+    - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 5.25976324
+      objectReference: {fileID: 0}
+    - target: {fileID: 423618, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 5.04069853
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11498666, guid: b91c571cec2f142edbe1f1fafca50c6a, type: 2}

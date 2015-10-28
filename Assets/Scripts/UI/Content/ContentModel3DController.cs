@@ -223,9 +223,9 @@ public class ContentModel3DController : MonoBehaviour {
 	GameObject _currentModel3D;
 
 	#if UNITY_EDITOR || UNITY_STANDALONE || UNITY_WEBPLAYER
-	const float _rotationSpeed = 10.0F;
-	#else	
 	const float _rotationSpeed = 1.0F;
+	#else	
+	const float _rotationSpeed = 0.1F;
 	#endif
 	private float _lerpSpeed = 1.0F;
 	
