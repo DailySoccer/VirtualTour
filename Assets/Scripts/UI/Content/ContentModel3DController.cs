@@ -82,8 +82,20 @@ public class ContentModel3DController : MonoBehaviour {
 	}
 	
 	void Update () {
-		if (_currentModel3D != null && _currentModel3D.activeSelf) {
+		if (_currentModel3D != null && _currentModel3D.activeSelf && !(Lean.LeanTouch.PinchScale < 1f)) {
 			DragModel (_currentModel3D);
+		}
+
+		_currentModel3D.transform.localScale *= Lean.LeanTouch.PinchScale;
+
+		float min = 0.6f;
+		float max = 2f;
+
+		if (_currentModel3D.transform.localScale.x < min) {
+			_currentModel3D.transform.localScale = new Vector3(min, min, min);
+		}
+		else if (_currentModel3D.transform.localScale.x > max) {
+			_currentModel3D.transform.localScale = new Vector3(max, max, max);
 		}
 	}
 	
