@@ -174,6 +174,14 @@ public class RoomManager : Photon.PunBehaviour {
 		yield return null;
 	}
 
+	public void GotoRoomAtDoor(string roomGoto) {
+		string roomKey = GetRoomKey(roomGoto);
+		if (RoomDefinitions.ContainsKey(roomKey)) {
+			_doorToEnter = GetDoorKey (roomGoto);
+			ToRoom(RoomDefinitions[roomKey] as RoomDefinition);
+		}
+	}
+
 	public void GotoRoom(string roomKey) {
 		if (RoomDefinitions.ContainsKey(roomKey)) {
 			ToRoom (RoomDefinitions[roomKey] as RoomDefinition);

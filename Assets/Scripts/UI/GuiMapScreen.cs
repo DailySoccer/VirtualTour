@@ -42,9 +42,9 @@ public class GuiMapScreen : GUIPopUpScreen {
 		*/
 	}
 
-	public void HandleRoom(string roomKey) {
-		Debug.LogWarning("HandleRoom: " + roomKey);
-		RoomManager.Instance.GotoRoom(roomKey);
+	public void HandleRoom(string roomGoto) {
+		Debug.LogWarning("HandleRoom: " + roomGoto);
+		RoomManager.Instance.GotoRoomAtDoor(roomGoto);
 	}
 
 	public override void Update () {
