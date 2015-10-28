@@ -164,10 +164,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .5
       objectReference: {fileID: 0}
-    - target: {fileID: 199784, guid: 7db1a1f032f3741fdb8a7c42be113ed8, type: 2}
-      propertyPath: m_Name
-      value: Profile Screen
-      objectReference: {fileID: 0}
     - target: {fileID: 11490302, guid: 7db1a1f032f3741fdb8a7c42be113ed8, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -176,6 +172,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2068864202}
+    - target: {fileID: 199784, guid: 7db1a1f032f3741fdb8a7c42be113ed8, type: 2}
+      propertyPath: m_Name
+      value: Profile Screen
+      objectReference: {fileID: 0}
     - target: {fileID: 22409580, guid: 7db1a1f032f3741fdb8a7c42be113ed8, type: 2}
       propertyPath: m_AnchorMin.y
       value: 1
@@ -1550,10 +1550,10 @@ Prefab:
       propertyPath: CameraModel
       value: 
       objectReference: {fileID: 1877621110}
-    - target: {fileID: 11401056, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+    - target: {fileID: 11421434, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
+      propertyPath: GameCanvasManager
       value: 
-      objectReference: {fileID: 2008166925}
+      objectReference: {fileID: 1671584787}
     - target: {fileID: 11411192, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1566,18 +1566,14 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 137118346}
+    - target: {fileID: 11401056, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2008166925}
     - target: {fileID: 11445548, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2068864202}
-    - target: {fileID: 11421434, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
-      propertyPath: GameCanvasManager
-      value: 
-      objectReference: {fileID: 1671584787}
-    - target: {fileID: 22415472, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7bbabd7ad61704a0cba672b1a549a5d2, type: 2}
   m_IsPrefabParent: 0
