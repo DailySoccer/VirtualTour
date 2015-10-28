@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class GuiMapScreen : GUIPopUpScreen {
 	public Button MapRoomIcon;
+	public GameObject Selector;
 
 	public override void Awake () {
 		base.Awake ();
