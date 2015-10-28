@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class GuiMapScreen : GUIPopUpScreen {
 	public Button MapRoomIcon;
+	public GameObject Selector;
 
 	public override void Awake () {
 		base.Awake ();
@@ -40,15 +41,36 @@ public class GuiMapScreen : GUIPopUpScreen {
 			}
 		}
 		*/
+
 	}
 
-	public void HandleRoom(string roomKey) {
-		Debug.LogWarning("HandleRoom: " + roomKey);
-		RoomManager.Instance.GotoRoom(roomKey);
+	public void HandleRoom(string roomGoto) {
+		Debug.LogWarning("HandleRoom: " + roomGoto);
+		RoomManager.Instance.GotoRoomAtDoor(roomGoto);
 	}
 
 	public override void Update () {
 		base.Update ();
+
+		if (Selector != null && RoomManager.Instance != null && RoomManager.Instance.Room != null) {
+			GameObject button = null;
+			
+			switch(RoomManager.Instance.Room.Id) {
+			case "ESTADIO": button = GameObject.Find ("Map Grada Alta"); break;
+			case "ROOM1": button = GameObject.Find ("Map Room1"); break;
+			case "ROOM2": button = GameObject.Find ("Map Room2"); break;
+			case "ROOM3": button = GameObject.Find ("Map Room3"); break;
+			case "ROOM4": button = GameObject.Find ("Map Room4"); break;
+			case "ROOM5": button = GameObject.Find ("Map Room5"); break;
+			case "ROOM6": button = GameObject.Find ("Map Room6"); break;
+			}
+			
+			if (button != null) {
+				Vector3 position = Selector.transform.position;
+				position.y = button.transform.position.y;
+				Selector.transform.position = position;
+			}
+		}
 	}
 
 	List<Button> _map;
