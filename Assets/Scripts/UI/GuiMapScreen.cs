@@ -56,13 +56,13 @@ public class GuiMapScreen : GUIPopUpScreen {
 			GameObject button = null;
 			
 			switch(RoomManager.Instance.Room.Id) {
-			case "ESTADIO": button = GameObject.Find ("Grada Alta"); break;
-			case "ROOM1": button = GameObject.Find ("Room1"); break;
-			case "ROOM2": button = GameObject.Find ("Room2"); break;
-			case "ROOM3": button = GameObject.Find ("Room3"); break;
-			case "ROOM4": button = GameObject.Find ("Room4"); break;
-			case "ROOM5": button = GameObject.Find ("Room5"); break;
-			case "ROOM6": button = GameObject.Find ("Room6"); break;
+			case "ESTADIO": button = GameObject.Find ("Map Grada Alta"); break;
+			case "ROOM1": button = GameObject.Find ("Map Room1"); break;
+			case "ROOM2": button = GameObject.Find ("Map Room2"); break;
+			case "ROOM3": button = GameObject.Find ("Map Room3"); break;
+			case "ROOM4": button = GameObject.Find ("Map Room4"); break;
+			case "ROOM5": button = GameObject.Find ("Map Room5"); break;
+			case "ROOM6": button = GameObject.Find ("Map Room6"); break;
 			}
 			
 			if (button != null) {
