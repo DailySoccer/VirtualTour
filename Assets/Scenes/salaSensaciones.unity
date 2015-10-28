@@ -366,20 +366,20 @@ LightProbeGroup:
   - {x: -5.97345018, y: .10932482, z: -12.5556536}
   - {x: -21.493103, y: 2.82343483, z: -12.5556536}
   - {x: -21.493103, y: .10932482, z: -12.5556536}
-  - {x: -4.33111715, y: 2.82343483, z: -3.77662468}
-  - {x: -4.33111715, y: .10932482, z: -3.77662468}
-  - {x: -4.33111715, y: 2.82343483, z: -5.79025745}
-  - {x: -4.33111715, y: .10932482, z: -5.79025745}
+  - {x: -5.95449448, y: 2.82343483, z: -3.77662468}
+  - {x: -5.95449448, y: .10932482, z: -3.77662468}
+  - {x: -5.95449448, y: 2.82343483, z: -5.79025745}
+  - {x: -5.95449448, y: .10932482, z: -5.79025745}
   - {x: -37.5303993, y: 2.82343483, z: -12.3858614}
   - {x: -37.5303993, y: .10932482, z: -12.3858614}
-  - {x: -4.33111715, y: 2.82343483, z: -7.93973589}
-  - {x: -4.33111715, y: .10932482, z: -7.93973589}
+  - {x: -5.95449448, y: 2.82343483, z: -7.93973589}
+  - {x: -5.95449448, y: .10932482, z: -7.93973589}
   - {x: -21.493103, y: 2.82343483, z: -7.93973589}
   - {x: -21.493103, y: .10932482, z: -7.93973589}
-  - {x: -5.97345018, y: 2.82343483, z: -10.3651304}
-  - {x: -5.97345018, y: .10932482, z: -10.3651304}
-  - {x: -21.493103, y: 2.82343483, z: -10.3651304}
-  - {x: -21.493103, y: .10932482, z: -10.3651304}
+  - {x: -5.97345018, y: 2.82343483, z: -11.3534918}
+  - {x: -5.97345018, y: .10932482, z: -11.3534918}
+  - {x: -21.493103, y: 2.82343483, z: -11.3534918}
+  - {x: -21.493103, y: .10932482, z: -11.3534918}
   - {x: -7.66904593, y: 2.82343483, z: -2.59499073}
   - {x: -7.66904593, y: 2.82343483, z: -12.5556536}
   - {x: -7.66904593, y: .10932482, z: -2.59499073}
@@ -390,8 +390,8 @@ LightProbeGroup:
   - {x: -7.66904593, y: .10932482, z: -5.79025745}
   - {x: -7.66904593, y: 2.82343483, z: -7.93973589}
   - {x: -7.66904593, y: .10932482, z: -7.93973589}
-  - {x: -7.66904593, y: 2.82343483, z: -10.3651304}
-  - {x: -7.66904593, y: .10932482, z: -10.3651304}
+  - {x: -7.66904593, y: 2.82343483, z: -11.3534918}
+  - {x: -7.66904593, y: .10932482, z: -11.3534918}
   - {x: -10.6889439, y: 2.82343483, z: -2.52418709}
   - {x: -10.6889439, y: 2.82343483, z: -12.5556536}
   - {x: -10.6889439, y: .10932482, z: -2.52418709}
@@ -426,8 +426,8 @@ LightProbeGroup:
   - {x: -16.977211, y: .10932482, z: -5.79025745}
   - {x: -16.977211, y: 2.82343483, z: -7.93973589}
   - {x: -16.977211, y: .10932482, z: -7.93973589}
-  - {x: -16.977211, y: 2.82343483, z: -10.3651304}
-  - {x: -16.977211, y: .10932482, z: -10.3651304}
+  - {x: -16.977211, y: 2.82343483, z: -11.3534918}
+  - {x: -16.977211, y: .10932482, z: -11.3534918}
   - {x: -19.844202, y: 2.82343483, z: -2.36597443}
   - {x: -19.844202, y: 2.82343483, z: -12.5556536}
   - {x: -19.844202, y: .10932482, z: -2.36597443}
@@ -438,8 +438,8 @@ LightProbeGroup:
   - {x: -19.844202, y: .10932482, z: -5.79025745}
   - {x: -19.844202, y: 2.82343483, z: -7.93973589}
   - {x: -19.844202, y: .10932482, z: -7.93973589}
-  - {x: -19.844202, y: 2.82343483, z: -10.3651304}
-  - {x: -19.844202, y: .10932482, z: -10.3651304}
+  - {x: -19.844202, y: 2.82343483, z: -11.3534918}
+  - {x: -19.844202, y: .10932482, z: -11.3534918}
   - {x: -21.493103, y: 2.82343483, z: -2.36597443}
   - {x: -21.493103, y: .10932482, z: -2.36597443}
   - {x: -21.493103, y: 2.82343483, z: -3.77662468}
@@ -472,12 +472,12 @@ LightProbeGroup:
   - {x: -28.8818588, y: .10932482, z: -8.48276711}
   - {x: -31.9500637, y: 2.82343483, z: -8.48276711}
   - {x: -31.9500637, y: .10932482, z: -8.48276711}
-  - {x: -37.5303993, y: 2.82343483, z: -10.2151556}
-  - {x: -37.5303993, y: .10932482, z: -10.2151556}
-  - {x: -28.8818588, y: 2.82343483, z: -10.2151556}
-  - {x: -28.8818588, y: .10932482, z: -10.2151556}
-  - {x: -31.9500637, y: 2.82343483, z: -10.2151556}
-  - {x: -31.9500637, y: .10932482, z: -10.2151556}
+  - {x: -37.5303993, y: 2.82343483, z: -11.203517}
+  - {x: -37.5303993, y: .10932482, z: -11.203517}
+  - {x: -28.8818588, y: 2.82343483, z: -11.203517}
+  - {x: -28.8818588, y: .10932482, z: -11.203517}
+  - {x: -31.9500637, y: 2.82343483, z: -11.203517}
+  - {x: -31.9500637, y: .10932482, z: -11.203517}
   - {x: -34.9409027, y: 2.82343483, z: -2.36597443}
   - {x: -34.9409027, y: .10932482, z: -2.36597443}
   - {x: -34.9409027, y: 2.82343483, z: -3.77662468}
@@ -488,8 +488,118 @@ LightProbeGroup:
   - {x: -34.9409027, y: .10932482, z: -5.79025745}
   - {x: -34.9409027, y: 2.82343483, z: -8.48276711}
   - {x: -34.9409027, y: .10932482, z: -8.48276711}
-  - {x: -34.9409027, y: 2.82343483, z: -10.2151556}
-  - {x: -34.9409027, y: .10932482, z: -10.2151556}
+  - {x: -34.9409027, y: 2.82343483, z: -11.203517}
+  - {x: -34.9409027, y: .10932482, z: -11.203517}
+  - {x: -5.65328217, y: 2.82343483, z: -2.60673904}
+  - {x: -5.56317806, y: 2.82343483, z: -12.5556536}
+  - {x: -5.65328217, y: .10932482, z: -2.60673904}
+  - {x: -5.56317806, y: .10932482, z: -12.5556536}
+  - {x: -5.54422235, y: 2.82343483, z: -3.77662468}
+  - {x: -5.54422235, y: .10932482, z: -3.77662468}
+  - {x: -5.54422235, y: 2.82343483, z: -5.79025745}
+  - {x: -5.54422235, y: .10932482, z: -5.79025745}
+  - {x: -5.54422235, y: 2.82343483, z: -7.93973589}
+  - {x: -5.54422235, y: .10932482, z: -7.93973589}
+  - {x: -5.56317806, y: 2.82343483, z: -11.3534918}
+  - {x: -5.56317806, y: .10932482, z: -11.3534918}
+  - {x: -6.6630187, y: 2.82343483, z: -2.60673904}
+  - {x: -6.5729146, y: 2.82343483, z: -12.5556536}
+  - {x: -6.6630187, y: .10932482, z: -2.60673904}
+  - {x: -6.5729146, y: .10932482, z: -12.5556536}
+  - {x: -6.55395889, y: 2.82343483, z: -3.77662468}
+  - {x: -6.55395889, y: .10932482, z: -3.77662468}
+  - {x: -6.55395889, y: 2.82343483, z: -5.79025745}
+  - {x: -6.55395889, y: .10932482, z: -5.79025745}
+  - {x: -6.55395889, y: 2.82343483, z: -7.93973589}
+  - {x: -6.55395889, y: .10932482, z: -7.93973589}
+  - {x: -6.5729146, y: 2.82343483, z: -11.3534918}
+  - {x: -6.5729146, y: .10932482, z: -11.3534918}
+  - {x: -5.97345018, y: 1.92314911, z: -12.5556536}
+  - {x: -5.95449448, y: 1.92314911, z: -7.93973589}
+  - {x: -5.97345018, y: 1.92314911, z: -11.3534918}
+  - {x: -5.56317806, y: 1.92314911, z: -12.5556536}
+  - {x: -5.54422235, y: 1.92314911, z: -7.93973589}
+  - {x: -5.56317806, y: 1.92314911, z: -11.3534918}
+  - {x: -6.5729146, y: 1.92314911, z: -12.5556536}
+  - {x: -6.55395889, y: 1.92314911, z: -7.93973589}
+  - {x: -6.5729146, y: 1.92314911, z: -11.3534918}
+  - {x: -5.97345018, y: .807476044, z: -12.5556536}
+  - {x: -5.95449448, y: .807476044, z: -7.93973589}
+  - {x: -5.97345018, y: .807476044, z: -11.3534918}
+  - {x: -5.56317806, y: .807476044, z: -12.5556536}
+  - {x: -5.54422235, y: .807476044, z: -7.93973589}
+  - {x: -5.56317806, y: .807476044, z: -11.3534918}
+  - {x: -6.5729146, y: .807476044, z: -12.5556536}
+  - {x: -6.55395889, y: .807476044, z: -7.93973589}
+  - {x: -6.5729146, y: .807476044, z: -11.3534918}
+  - {x: -21.493103, y: 2.01938629, z: -7.93973589}
+  - {x: -21.493103, y: 2.01938629, z: -11.3534918}
+  - {x: -21.493103, y: 2.01938629, z: -12.5556536}
+  - {x: -21.493103, y: .84869194, z: -7.93973589}
+  - {x: -21.493103, y: .84869194, z: -11.3534918}
+  - {x: -21.493103, y: .84869194, z: -12.5556536}
+  - {x: -22.0098228, y: 2.82343483, z: -12.5556536}
+  - {x: -22.0098228, y: .10932482, z: -12.5556536}
+  - {x: -22.0098228, y: 2.82343483, z: -7.93973589}
+  - {x: -22.0098228, y: .10932482, z: -7.93973589}
+  - {x: -22.0098228, y: 2.82343483, z: -11.3534918}
+  - {x: -22.0098228, y: .10932482, z: -11.3534918}
+  - {x: -22.0098228, y: 2.01938629, z: -7.93973589}
+  - {x: -22.0098228, y: 2.01938629, z: -11.3534918}
+  - {x: -22.0098228, y: 2.01938629, z: -12.5556536}
+  - {x: -22.0098228, y: .84869194, z: -7.93973589}
+  - {x: -22.0098228, y: .84869194, z: -11.3534918}
+  - {x: -22.0098228, y: .84869194, z: -12.5556536}
+  - {x: -20.6471691, y: 2.82343483, z: -12.5556536}
+  - {x: -20.6471691, y: .10932482, z: -12.5556536}
+  - {x: -20.6471691, y: 2.82343483, z: -7.93973589}
+  - {x: -20.6471691, y: .10932482, z: -7.93973589}
+  - {x: -20.6471691, y: 2.82343483, z: -11.3534918}
+  - {x: -20.6471691, y: .10932482, z: -11.3534918}
+  - {x: -20.6471691, y: 2.01938629, z: -7.93973589}
+  - {x: -20.6471691, y: 2.01938629, z: -11.3534918}
+  - {x: -20.6471691, y: 2.01938629, z: -12.5556536}
+  - {x: -20.6471691, y: .84869194, z: -7.93973589}
+  - {x: -20.6471691, y: .84869194, z: -11.3534918}
+  - {x: -20.6471691, y: .84869194, z: -12.5556536}
+  - {x: -5.97345018, y: 2.82343483, z: -9.46379757}
+  - {x: -5.97345018, y: .10932482, z: -9.46379757}
+  - {x: -21.493103, y: 2.82343483, z: -9.46379757}
+  - {x: -21.493103, y: .10932482, z: -9.46379757}
+  - {x: -7.66904593, y: 2.82343483, z: -9.46379757}
+  - {x: -7.66904593, y: .10932482, z: -9.46379757}
+  - {x: -16.977211, y: 2.82343483, z: -9.46379757}
+  - {x: -16.977211, y: .10932482, z: -9.46379757}
+  - {x: -19.844202, y: 2.82343483, z: -9.46379757}
+  - {x: -19.844202, y: .10932482, z: -9.46379757}
+  - {x: -37.5303993, y: 2.82343483, z: -9.31382275}
+  - {x: -37.5303993, y: .10932482, z: -9.31382275}
+  - {x: -28.8818588, y: 2.82343483, z: -9.31382275}
+  - {x: -28.8818588, y: .10932482, z: -9.31382275}
+  - {x: -31.9500637, y: 2.82343483, z: -9.31382275}
+  - {x: -31.9500637, y: .10932482, z: -9.31382275}
+  - {x: -34.9409027, y: 2.82343483, z: -9.31382275}
+  - {x: -34.9409027, y: .10932482, z: -9.31382275}
+  - {x: -5.56317806, y: 2.82343483, z: -9.46379757}
+  - {x: -5.56317806, y: .10932482, z: -9.46379757}
+  - {x: -6.5729146, y: 2.82343483, z: -9.46379757}
+  - {x: -6.5729146, y: .10932482, z: -9.46379757}
+  - {x: -5.97345018, y: 1.92314911, z: -9.46379757}
+  - {x: -5.56317806, y: 1.92314911, z: -9.46379757}
+  - {x: -6.5729146, y: 1.92314911, z: -9.46379757}
+  - {x: -5.97345018, y: .807476044, z: -9.46379757}
+  - {x: -5.56317806, y: .807476044, z: -9.46379757}
+  - {x: -6.5729146, y: .807476044, z: -9.46379757}
+  - {x: -21.493103, y: 2.01938629, z: -9.46379757}
+  - {x: -21.493103, y: .84869194, z: -9.46379757}
+  - {x: -22.0098228, y: 2.82343483, z: -9.46379757}
+  - {x: -22.0098228, y: .10932482, z: -9.46379757}
+  - {x: -22.0098228, y: 2.01938629, z: -9.46379757}
+  - {x: -22.0098228, y: .84869194, z: -9.46379757}
+  - {x: -20.6471691, y: 2.82343483, z: -9.46379757}
+  - {x: -20.6471691, y: .10932482, z: -9.46379757}
+  - {x: -20.6471691, y: 2.01938629, z: -9.46379757}
+  - {x: -20.6471691, y: .84869194, z: -9.46379757}
 --- !u!4 &139378124
 Transform:
   m_ObjectHideFlags: 0
@@ -574,6 +684,66 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 149897001}
   m_Mesh: {fileID: 4300046, guid: be21b47dc37bbf045a0a773b92ca650b, type: 3}
+--- !u!1 &159816082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 159816084}
+  - 108: {fileID: 159816083}
+  m_Layer: 0
+  m_Name: Area Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &159816083
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159816082}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_Type: 3
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_NormalBias: .400000006
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_AreaSize: {x: 14.1735497, y: 2.56828308}
+--- !u!4 &159816084
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 159816082}
+  m_LocalRotation: {x: -.00126675575, y: 0, z: 0, w: .999999225}
+  m_LocalPosition: {x: -14.2700005, y: 1.54499996, z: -12.7600002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!1001 &402198464
 Prefab:
   m_ObjectHideFlags: 0
@@ -1743,6 +1913,54 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b20b10548ee72fa4aac04d8d8d2130ec, type: 2}
+    - target: {fileID: 2384918, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340264, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314142, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350132, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2315540, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342558, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321376, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2370460, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381912, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316580, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2308246, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341418, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 460ecb911bd34444bbf89737f3a20402, type: 2}
   m_IsPrefabParent: 0
@@ -1867,6 +2085,98 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2302022, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345608, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2399302, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357470, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396474, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2330774, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328938, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2389422, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376208, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2304538, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316256, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2327038, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385114, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386138, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353870, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381296, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357616, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337962, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2342268, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345234, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2340396, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2364900, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2346970, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
+      propertyPath: m_UseLightProbes
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03ba61c9bda387143bfb3a48daf41011, type: 2}
   m_IsPrefabParent: 0
@@ -1923,7 +2233,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10825136, guid: dcf94b140e99d08408745dc2c04ae7d2, type: 2}
       propertyPath: m_Intensity
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dcf94b140e99d08408745dc2c04ae7d2, type: 2}
