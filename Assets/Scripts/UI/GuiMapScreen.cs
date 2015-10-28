@@ -41,6 +41,7 @@ public class GuiMapScreen : GUIPopUpScreen {
 			}
 		}
 		*/
+
 	}
 
 	public void HandleRoom(string roomGoto) {
@@ -50,6 +51,26 @@ public class GuiMapScreen : GUIPopUpScreen {
 
 	public override void Update () {
 		base.Update ();
+
+		if (Selector != null && RoomManager.Instance != null && RoomManager.Instance.Room != null) {
+			GameObject button = null;
+			
+			switch(RoomManager.Instance.Room.Id) {
+			case "ESTADIO": button = GameObject.Find ("Grada Alta"); break;
+			case "ROOM1": button = GameObject.Find ("Room1"); break;
+			case "ROOM2": button = GameObject.Find ("Room2"); break;
+			case "ROOM3": button = GameObject.Find ("Room3"); break;
+			case "ROOM4": button = GameObject.Find ("Room4"); break;
+			case "ROOM5": button = GameObject.Find ("Room5"); break;
+			case "ROOM6": button = GameObject.Find ("Room6"); break;
+			}
+			
+			if (button != null) {
+				Vector3 position = Selector.transform.position;
+				position.y = button.transform.position.y;
+				Selector.transform.position = position;
+			}
+		}
 	}
 
 	List<Button> _map;
