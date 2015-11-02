@@ -284,7 +284,7 @@ public class TVBChatController : MonoBehaviour {
 	private string GetChannelFriendlyName( string theName) {
 		if (ChatManager.Instance.UserName != null) {
 			if (theName.Contains(ChatManager.Instance.UserName)) {
-				return theName.Remove(name.IndexOf(ChatManager.Instance.UserName), ChatManager.Instance.UserName.Length).Trim(':');
+				return theName.Remove(theName.IndexOf(ChatManager.Instance.UserName), ChatManager.Instance.UserName.Length).Trim(':');
 			}
 		}
 		return theName;
