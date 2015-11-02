@@ -475,6 +475,10 @@ Prefab:
       propertyPath: m_Name
       value: balda_reyesEuropaHorz (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2308524, guid: 7305a14c5849e6541a61c28d6c686f1d, type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51496857c51611e4881cbf7f75612597, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7305a14c5849e6541a61c28d6c686f1d, type: 2}
   m_IsPrefabParent: 0
@@ -1711,6 +1715,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 2.64023423
       objectReference: {fileID: 0}
+    - target: {fileID: 2308524, guid: 7305a14c5849e6541a61c28d6c686f1d, type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51496857c51611e4881cbf7f75612597, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7305a14c5849e6541a61c28d6c686f1d, type: 2}
   m_IsPrefabParent: 0
@@ -1769,6 +1777,10 @@ Prefab:
       propertyPath: m_Name
       value: balda_reyesEuropaHorz (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2308524, guid: 7305a14c5849e6541a61c28d6c686f1d, type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 51496857c51611e4881cbf7f75612597, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7305a14c5849e6541a61c28d6c686f1d, type: 2}
   m_IsPrefabParent: 0
