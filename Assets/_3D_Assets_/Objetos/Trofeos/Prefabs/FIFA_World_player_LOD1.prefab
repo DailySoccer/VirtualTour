@@ -1,49 +1,48 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &122204
+--- !u!1 &129706
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 464872}
-  - 33: {fileID: 3397104}
-  - 23: {fileID: 2381646}
-  m_Layer: 11
-  m_Name: Champions_Orejona_LOD1
+  - 4: {fileID: 453304}
+  - 33: {fileID: 3365292}
+  - 23: {fileID: 2334766}
+  m_Layer: 0
+  m_Name: FIFA_World_player_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &464872
+--- !u!4 &453304
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 122204}
-  m_LocalRotation: {x: -1.1520229e-07, y: -.707106948, z: -.70710659, w: 1.15202347e-07}
-  m_LocalPosition: {x: -42.8089981, y: 1.71300006, z: -10.3129997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_GameObject: {fileID: 129706}
+  m_LocalRotation: {x: 1.15202326e-07, y: .707106709, z: .707106829, w: -1.15202312e-07}
+  m_LocalPosition: {x: -19.309, y: 1.09300005, z: -1.92400002}
+  m_LocalScale: {x: .419999987, y: .419999987, z: .419999987}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!23 &2381646
+--- !u!23 &2334766
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 122204}
+  m_GameObject: {fileID: 129706}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 85c7456e16012774ca13dc660ec3e8cc, type: 2}
-  - {fileID: 2100000, guid: 85c7456e16012774ca13dc660ec3e8cc, type: 2}
+  - {fileID: 2100000, guid: 4d3ed296d421e8f4ba49a285ef03e4d6, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_ReflectionProbeUsage: 1
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
@@ -54,13 +53,13 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &3397104
+--- !u!33 &3365292
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 122204}
-  m_Mesh: {fileID: 4300000, guid: ae560ae994b84794d8b5ecb56ffbd153, type: 3}
+  m_GameObject: {fileID: 129706}
+  m_Mesh: {fileID: 4300000, guid: eab6f6b9072c4c44a96ae837b6df7aaf, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -70,5 +69,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 122204}
+  m_RootGameObject: {fileID: 129706}
   m_IsPrefabParent: 1
