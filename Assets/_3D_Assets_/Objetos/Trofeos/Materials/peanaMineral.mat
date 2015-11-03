@@ -19,14 +19,14 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 32bbd67d4eea52f4eb878d0e9d434f4f, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 67998bd650e5b3944b777f57ff846e3f, type: 3}
+          m_Texture: {fileID: 2800000, guid: d8ba5a33c3f8b5641bba67f41c718332, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -82,7 +82,7 @@ Material:
         first:
           name: _SpecTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: fd91faf9d6964c247b380f4f713acca0, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -115,7 +115,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 5.57999992
+        second: 4.92000008
       data:
         first:
           name: _Parallax
@@ -159,7 +159,7 @@ Material:
       data:
         first:
           name: _Fresnel
-        second: .851999998
+        second: .699999988
       data:
         first:
           name: _OccStrength
@@ -176,4 +176,4 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .676470578, g: .676470578, b: .676470578, a: 1}
+        second: {r: .742647052, g: .742647052, b: .742647052, a: 1}
