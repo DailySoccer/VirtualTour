@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: c777d4f3b1859174cbc6a51f148b45e1
-timeCreated: 1445497814
+guid: eb755e52c9433e041b904c3bf5ebeeda
+timeCreated: 1446643133
 licenseType: Pro
 ModelImporter:
   serializedVersion: 18
@@ -9,8 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: supercopa_Basket
-    9500000: //RootNode
+    4300000: supercopa_Basket_LOD1
   materials:
     importMaterials: 1
     materialName: 0
