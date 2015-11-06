@@ -89,7 +89,7 @@ Material:
         first:
           name: _SpecTex
         second:
-          m_Texture: {fileID: 2800000, guid: 10d7d6d25bd470246b01b526ef3560f4, type: 3}
+          m_Texture: {fileID: 2800000, guid: a0e3e4baa11593049aa85faa6e6c5bcb, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -155,7 +155,7 @@ Material:
       data:
         first:
           name: _SpecInt
-        second: 3
+        second: 5
       data:
         first:
           name: _Fresnel
@@ -172,7 +172,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .367647052, g: .343317479, b: .343317479, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _SpecColor
