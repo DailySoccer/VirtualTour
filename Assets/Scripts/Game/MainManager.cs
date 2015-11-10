@@ -143,8 +143,9 @@ public class MainManager : Photon.PunBehaviour {
 	}
 
 	void Start() {
-		InitializeStore();
-
+#if UNITY_ANDROID || UNITY_IOS
+        InitializeStore();
+#endif
 		if (UserAPI.Instance != null) {
 			StartCoroutine(CheckForInternetConnection());
 		}
