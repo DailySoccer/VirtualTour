@@ -62,13 +62,17 @@ public class SelectAvatar : MonoBehaviour {
 		lastInstance.transform.position = Vector3.zero;
 
 		lastInstance.GetComponent<Rigidbody>().isKinematic = true;
-		lastInstance.GetComponent<PhotonTransformView>().enabled = false;
-		lastInstance.GetComponent<PhotonAnimatorView>().enabled = false;
 
-		//lastInstance.AddComponent<AudioListener>();
-	}
-	
-	void Awake() {
+
+
+        lastInstance.GetComponent<SynchNet>().enabled = false;
+        //lastInstance.GetComponent<PhotonTransformView>().enabled = false;
+        //lastInstance.GetComponent<PhotonAnimatorView>().enabled = false;
+
+        //lastInstance.AddComponent<AudioListener>();
+    }
+
+    void Awake() {
 	}
 
 	void OnEnable() {
