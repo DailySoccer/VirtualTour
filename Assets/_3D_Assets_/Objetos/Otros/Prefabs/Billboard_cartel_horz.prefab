@@ -11,7 +11,7 @@ GameObject:
   - 33: {fileID: 3377946}
   - 23: {fileID: 2369002}
   m_Layer: 0
-  m_Name: Billboard_cartel_011
+  m_Name: Billboard_cartel_horz
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
