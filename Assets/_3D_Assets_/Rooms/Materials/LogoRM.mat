@@ -54,7 +54,7 @@ Material:
         first:
           name: _EmissionMap
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: b8c73e6ef84854147a481c6e685d0b5c, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -131,7 +131,7 @@ Material:
       data:
         first:
           name: _EmissionColor
-        second: {r: .300000012, g: .300000012, b: .300000012, a: 1}
+        second: {r: .349999994, g: .349999994, b: .349999994, a: 1}
       data:
         first:
           name: _Color
