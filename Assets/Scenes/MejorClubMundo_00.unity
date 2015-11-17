@@ -761,7 +761,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 31306382}
   m_LocalRotation: {x: .49999994, y: .50000006, z: .50000006, w: .49999994}
-  m_LocalPosition: {x: -.141800001, y: 4.37699986, z: .0582000017}
+  m_LocalPosition: {x: -.141800001, y: 3.92149997, z: .0582000017}
   m_LocalScale: {x: .242278963, y: .11647328, z: .0768800825}
   m_Children: []
   m_Father: {fileID: 461164278}
@@ -5199,7 +5199,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &344172654
 Transform:
   m_ObjectHideFlags: 0
@@ -6220,7 +6220,7 @@ Light:
   serializedVersion: 6
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .5
+  m_Intensity: .850000024
   m_Range: 1
   m_SpotAngle: 60
   m_CookieSize: 10
@@ -6479,7 +6479,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 39dd9fdc199f13f45b939f8ace840da8, type: 3}
       propertyPath: m_Materials.Array.data[6]
       value: 
-      objectReference: {fileID: 2100000, guid: b738f5ead5ca805448aa2aecad012fb7, type: 2}
+      objectReference: {fileID: 2100000, guid: 19b2881616651ef46a09029d3c2f8e6e, type: 2}
     - target: {fileID: 2300000, guid: 39dd9fdc199f13f45b939f8ace840da8, type: 3}
       propertyPath: m_Materials.Array.data[7]
       value: 
@@ -6487,6 +6487,14 @@ Prefab:
     - target: {fileID: 100000, guid: 39dd9fdc199f13f45b939f8ace840da8, type: 3}
       propertyPath: m_Name
       value: SALA MEJOR CLUB DEL MUNDO
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 39dd9fdc199f13f45b939f8ace840da8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.0072718
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 39dd9fdc199f13f45b939f8ace840da8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 29.2386513
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 39dd9fdc199f13f45b939f8ace840da8, type: 3}
@@ -11143,8 +11151,8 @@ ReflectionProbe:
   m_Resolution: 256
   m_UpdateFrequency: 0
   m_Importance: 1
-  m_BoxSize: {x: 8.10034084, y: 3.66718817, z: 21.8732224}
-  m_BoxOffset: {x: -1.01645923, y: .0288805962, z: -.0946235657}
+  m_BoxSize: {x: 8.29341984, y: 3.66718817, z: 21.8732224}
+  m_BoxOffset: {x: -.919919729, y: .0288807154, z: -.0946235657}
   m_NearClip: .100000001
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -15894,7 +15902,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: b738f5ead5ca805448aa2aecad012fb7, type: 2}
+  - {fileID: 2100000, guid: 8c368a52858707e44ba11eb61e2995ce, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -28264,7 +28272,7 @@ Light:
   serializedVersion: 6
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .5
+  m_Intensity: .850000024
   m_Range: 1
   m_SpotAngle: 60
   m_CookieSize: 10

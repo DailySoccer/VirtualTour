@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Chrome
+  m_Name: Chrome 1
   m_Shader: {fileID: 4800000, guid: 443b56ce87253b747bde18cfac9ea1f6, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -108,7 +108,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: 6.17000008
+        second: 2.75
       data:
         first:
           name: _Parallax
@@ -148,11 +148,11 @@ Material:
       data:
         first:
           name: _SpecInt
-        second: .680000007
+        second: 1
       data:
         first:
           name: _Fresnel
-        second: .247999996
+        second: .5
       data:
         first:
           name: _IOR
@@ -169,4 +169,4 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .779411793, g: .779411793, b: .779411793, a: 1}
+        second: {r: .926470578, g: .926470578, b: .926470578, a: 1}
