@@ -80,16 +80,16 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _SpecTex
+          name: _SpecGlossMap
         second:
-          m_Texture: {fileID: 2800000, guid: b98a4cdfb87be364fa11035e976bb708, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _SpecGlossMap
+          name: _SpecTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: b98a4cdfb87be364fa11035e976bb708, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -172,8 +172,8 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .20588237, g: .15938136, b: .00756919989, a: 1}
+        second: {r: .433823526, g: .350050718, b: 0, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .676470578, g: .661308229, b: .611807942, a: 1}
+        second: {r: .977941155, g: .977941155, b: .977941155, a: 1}
