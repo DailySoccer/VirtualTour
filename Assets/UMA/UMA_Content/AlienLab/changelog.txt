@@ -1,2 +1,0 @@
-0.95 - added legacy slots (see readme), 3 new textures
-0.90 - initial release
