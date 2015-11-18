@@ -28,7 +28,7 @@ public class StartCanvasManager : CanvasManager {
 			}
 
 			if (!_initialized) {
-				if (Input.GetMouseButton(0) || Input.touchCount > 0) {
+				if (Input.anyKey/*GetMouseButton(0)*/ || Input.touchCount > 0) {
 					if (RoomManager.Instance != null) {
 						_initialized = true;
 
