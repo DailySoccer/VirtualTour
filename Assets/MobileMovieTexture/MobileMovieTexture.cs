@@ -123,6 +123,9 @@ namespace MMT
         /// </summary>
 		public bool AbsolutePath { get; set; }
 
+
+        Material CopyMaterial;
+
         /// <summary>
         /// Material to decode the movie on to, MMT sets up the textures and the texture scale/offset
         /// </summary>
@@ -337,6 +340,8 @@ namespace MMT
         {
             DestroyTextures();
             DestroyContext(m_nativeContext);
+            // Destruyo la copia del material.
+            if (CopyMaterial != null) { Destroy(CopyMaterial); CopyMaterial = null; }
         }
 
         void Update()
@@ -464,6 +469,12 @@ namespace MMT
 				m_uvHeight = GetUVHeight(m_nativeContext);
 
                 CalculateUVScaleOffset();
+
+                // Cambiamos el material para que soporte video.
+                CopyMaterial = (Material)Instantiate(MovieMaterial[0]);
+                if(Application.isEditor) CopyMaterial.shader = Shader.Find(CopyMaterial.shader.name);
+                gameObject.GetComponent<Renderer>().sharedMaterial = CopyMaterial;
+                MovieMaterial[0] = CopyMaterial;
             }
             else
             {
