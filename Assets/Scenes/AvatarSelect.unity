@@ -845,7 +845,6 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -968,7 +967,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: f12b115935c6a430f859fb2d425c92a8, type: 2}
+  - {fileID: 2100000, guid: 896b04c19f9288643993a8a5d30f118d, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1263,16 +1262,16 @@ Prefab:
       value: .5
       objectReference: {fileID: 0}
     - target: {fileID: 22454310, guid: 53a26340970de439292bd13237ec51cd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 22426906, guid: 53a26340970de439292bd13237ec51cd, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 22411020, guid: 53a26340970de439292bd13237ec51cd, type: 2}
-      propertyPath: m_LocalPosition.z
+      propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454310, guid: 53a26340970de439292bd13237ec51cd, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 22454310, guid: 53a26340970de439292bd13237ec51cd, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 800
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53a26340970de439292bd13237ec51cd, type: 2}
