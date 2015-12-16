@@ -9,14 +9,13 @@ GameObject:
   m_Component:
   - 4: {fileID: 470908}
   - 33: {fileID: 3301640}
-  - 64: {fileID: 6414432}
   - 23: {fileID: 2364342}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &186294
 GameObject:
@@ -54,8 +53,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186294}
   m_LocalRotation: {x: -.703089595, y: -.0752663761, z: -.0752663836, w: .703089595}
-  m_LocalPosition: {x: -8.22900009, y: .734000027, z: 17.6110001}
-  m_LocalScale: {x: 17.9253902, y: 22.1894512, z: 29.2386513}
+  m_LocalPosition: {x: -8.18999958, y: .699999988, z: -1.98599994}
+  m_LocalScale: {x: 17.9253902, y: 24.4170723, z: 29.2386513}
   m_Children:
   - {fileID: 470908}
   m_Father: {fileID: 0}
@@ -124,18 +123,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186294}
   m_Mesh: {fileID: 4300000, guid: b16e15364a7d3234fa65873e6db387ed, type: 3}
---- !u!64 &6414432
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 118766}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
