@@ -10,13 +10,12 @@ GameObject:
   - 4: {fileID: 469910}
   - 33: {fileID: 3376810}
   - 23: {fileID: 2302720}
-  - 114: {fileID: 11410196}
   m_Layer: 0
   m_Name: videoWall_lluviaGoles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &469910
 Transform:
@@ -25,7 +24,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121056}
   m_LocalRotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
-  m_LocalPosition: {x: -26.3400002, y: -.0500000007, z: -12.0900002}
+  m_LocalPosition: {x: -40.7713852, y: -.0529999994, z: -12.7203693}
   m_LocalScale: {x: 1, y: 1, z: .923937082}
   m_Children: []
   m_Father: {fileID: 0}
@@ -40,7 +39,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 523b7e8a5af9d6b4dae7aa61e08dbefb, type: 2}
+  - {fileID: 2100000, guid: 5bd70c95eb604fe4abf003159527962d, type: 2}
   - {fileID: 2100000, guid: 1515ce8e846c79b4d820c3fd52f7a838, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
@@ -62,44 +61,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 121056}
   m_Mesh: {fileID: 4300016, guid: 8571778895f08ae4e8465694091ed463, type: 3}
---- !u!114 &11410196
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 121056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0314e27bfbdfa8c448eca5a33c4e0096, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frames:
-  - {fileID: 2800000, guid: 778c17ca845896948b6b999d05735adb, type: 3}
-  - {fileID: 2800000, guid: 912aa19637792994eaed78f64a26db99, type: 3}
-  - {fileID: 2800000, guid: 11a55fdb9d1b67f49b9882ce1d4ab37b, type: 3}
-  - {fileID: 2800000, guid: 7db7c2625fa1c9f4e80f0fa4e656f410, type: 3}
-  - {fileID: 2800000, guid: 900ac99233505224c873cce7ab4121be, type: 3}
-  - {fileID: 2800000, guid: 3e59dc7e3b1849043ad212971beb7c28, type: 3}
-  - {fileID: 2800000, guid: 5f99387d6c9c71d40a2f03b7668408aa, type: 3}
-  - {fileID: 2800000, guid: b8ea34e2074f12b498707f2502e0bcf7, type: 3}
-  - {fileID: 2800000, guid: 467ddb4810abdb1488bd503971d9ccc3, type: 3}
-  - {fileID: 2800000, guid: a4701c84c7ea5c64ca0f79b89e51bfda, type: 3}
-  - {fileID: 2800000, guid: a7fe315e7380ce74699db45c1478c034, type: 3}
-  - {fileID: 2800000, guid: e93a78b93aa86b5469a104f155bacc51, type: 3}
-  - {fileID: 2800000, guid: 94d59a8c02778a941809a0a44def3338, type: 3}
-  - {fileID: 2800000, guid: beb2f3e28b3069543b7452d620595092, type: 3}
-  - {fileID: 2800000, guid: bd98637e6bc9dc748b73149d218faee7, type: 3}
-  - {fileID: 2800000, guid: 112527c99e029fd47aa811a86e752797, type: 3}
-  - {fileID: 2800000, guid: 07558b4ae12301a49ba9c0900b1b3ed0, type: 3}
-  - {fileID: 2800000, guid: bd6d5a269c1527447a3dcbd1e3debeb6, type: 3}
-  - {fileID: 2800000, guid: 5cce40cf101752a4fa226b8a3f28716e, type: 3}
-  - {fileID: 2800000, guid: fb3dfdf4ff8c2f74c8391b884aa5edfb, type: 3}
-  - {fileID: 2800000, guid: d9d2f46ee03cd41458958f004b742ab4, type: 3}
-  - {fileID: 2800000, guid: 29f514cf2bcf2d94aa80f6a5017913a8, type: 3}
-  - {fileID: 2800000, guid: 68dafc53541b155459cdbe256617e8b2, type: 3}
-  - {fileID: 2800000, guid: 8f79075d63a57364da1a242749e3c2c7, type: 3}
-  - {fileID: 2800000, guid: 3554d899e5d481c47999f17e89fabc63, type: 3}
-  framesPerSecond: 6
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
