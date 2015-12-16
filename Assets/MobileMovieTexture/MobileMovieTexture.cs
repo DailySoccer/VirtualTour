@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
 namespace MMT
@@ -335,13 +336,16 @@ namespace MMT
                 Play();
             }
         }
+		static Dictionary<string,Material> mMaterials = new Dictionary<string, Material>();
 
         void OnDestroy()
         {
             DestroyTextures();
             DestroyContext(m_nativeContext);
             // Destruyo la copia del material.
-            if (CopyMaterial != null) { Destroy(CopyMaterial); CopyMaterial = null; }
+            if (CopyMaterial != null) { 
+				if( mMaterials.ContainsKey(CopyMaterial.name) ) mMaterials.Remove(CopyMaterial.name);
+				Destroy(CopyMaterial); CopyMaterial = null; }
         }
 
         void Update()
@@ -471,10 +475,16 @@ namespace MMT
                 CalculateUVScaleOffset();
 
                 // Cambiamos el material para que soporte video.
-                CopyMaterial = (Material)Instantiate(MovieMaterial[0]);
-                if(Application.isEditor) CopyMaterial.shader = Shader.Find(CopyMaterial.shader.name);
-                gameObject.GetComponent<Renderer>().sharedMaterial = CopyMaterial;
-                MovieMaterial[0] = CopyMaterial;
+
+				if( mMaterials.ContainsKey(m_path) ){
+					MovieMaterial[0] = gameObject.GetComponent<Renderer>().sharedMaterial = mMaterials[m_path];
+				}else{
+	                CopyMaterial = (Material)Instantiate(MovieMaterial[0]);
+					CopyMaterial.name = m_path;
+	                if(Application.isEditor) CopyMaterial.shader = Shader.Find(CopyMaterial.shader.name);
+	                gameObject.GetComponent<Renderer>().sharedMaterial = CopyMaterial;
+					mMaterials[m_path] = MovieMaterial[0] = CopyMaterial;
+				}
             }
             else
             {
