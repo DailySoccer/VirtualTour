@@ -475,7 +475,7 @@ namespace MMT
                 CalculateUVScaleOffset();
 
                 // Cambiamos el material para que soporte video.
-
+				var image = gameObject.GetComponent<UnityEngine.UI.Image>();
 				if( mMaterials.ContainsKey(m_path) ){
 					MovieMaterial[0] = gameObject.GetComponent<Renderer>().sharedMaterial = mMaterials[m_path];
 					this.enabled = false;
@@ -486,7 +486,8 @@ namespace MMT
 	                gameObject.GetComponent<Renderer>().sharedMaterial = CopyMaterial;
 					mMaterials[m_path] = MovieMaterial[0] = CopyMaterial;
 				}
-            }
+				if(image!=null) image.material = MovieMaterial[0];
+			}
             else
             {
                 Debug.LogError("Unable to open movie " + m_nativeContext, this);
