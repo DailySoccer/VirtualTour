@@ -1,5 +1,5 @@
 ﻿// #define USE_ADAL
-// #define MICROSOFT_SDK
+#define MICROSOFT_SDK
 
 using UnityEngine;
 using System.Collections;
@@ -119,7 +119,7 @@ public class Authentication : MonoBehaviour {
 			StartCoroutine(GetAccessTokenFromRefreshToken());
 		}
 		else {
-			// OnSignUp();
+			OnSignUp();
 		}
 	}
 
@@ -366,14 +366,6 @@ public class Authentication : MonoBehaviour {
 		}
 	}
 
-	private void ProcessTokenResponse(HTTP.Response response) {
-		if (response.status == 200) {
-			ProcessTokenResponse(response.Text);
-		}
-		else {
-			Debug.Log ("Response: " + response.Text);
-		}
-	}
 
 	private void ProcessTokenResponse(string text) {
 		Debug.Log ("Response: " + text);

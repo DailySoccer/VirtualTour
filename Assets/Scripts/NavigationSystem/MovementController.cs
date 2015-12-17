@@ -5,11 +5,10 @@ public class MovementController : MonoBehaviour {
 	public float ROTATE_SPEED = 180f;
 	public float PITCH_SPEED = 90;
 	public float JOYSTICK_THRESHOLD = 0.3f;
-    public float movementSpeed = 5f;
+	public float FACING_SPEED = 0.12f;
+	public float movementSpeed = 5f;
 	private bool isMoving = false;
-    private Transform _playerTransform;
-	
-	
+	private Transform _playerTransform;
 	
 	[SerializeField]
 	private JoystickController movementJoystick;
@@ -19,9 +18,11 @@ public class MovementController : MonoBehaviour {
 	public Vector2 movement {
 		get { return movementJoystick.joystickValue; }
 	}
+	
 	public Vector2 rotation {
-		get { return rotationJoystick.deltaTouchValue; }
+		get { return rotationJoystick.joystickValue; }
 	}
+	
 	/**
 	 * Joysitck rotation weighted with user's finger speed.
 	 */
@@ -44,7 +45,7 @@ public class MovementController : MonoBehaviour {
 		}
 	}
 	
-
+	
 	// Use this for initialization
 	void Start () {
 		GameObject thePlayerObj = Player.Instance.UMAAvatar;
@@ -58,18 +59,45 @@ public class MovementController : MonoBehaviour {
 		if (PlayerTransform == null || PlayerTransform.GetComponent<Locomotion>() == null) {
 			return;
 		}
-        CommonMovementMethod(movement);
-        CommonRotationMethod(rotationWeighted);
+		Vector2 rotCamera = Vector2.zero;
+		float facing = FACING_SPEED;
+		
+		if ((Mathf.Abs(movement.x) >= JOYSTICK_THRESHOLD || Mathf.Abs(movement.y) >= JOYSTICK_THRESHOLD) && Camera.main != null)
+		{
+			facing = 0.46f;
+			rotCamera.x = movement.x * ROTATE_SPEED;
+			if (_animator == null)
+				_animator = PlayerTransform.GetComponent<Animator>();
+			
+			_animator.SetFloat("Speed", Mathf.Abs(movement.y));
+			
+			if (movement.y > 0) _animator.SetFloat("Forward", 1);
+			else _animator.SetFloat("Forward", -1);
+		}
+		
+		rotCamera.x += rotation.x * ROTATE_SPEED;
+		rotCamera.y = rotation.y * PITCH_SPEED;
+		Player.Instance.cameraRotation = rotCamera.x;
+		Player.Instance.cameraPitch = rotCamera.y;
+		
+		PlayerTransform.rotation = 
+			Quaternion.Slerp(PlayerTransform.rotation, Quaternion.Euler(0, Camera.main.transform.rotation.eulerAngles.y, 0), facing);
 	}
 	
 	
-	private void CommonRotationMethod(Vector2 rotation) {
-		Player.Instance.cameraRotation = rotation.x * ROTATE_SPEED;
-		Player.Instance.cameraPitch = rotation.y * ROTATE_SPEED;
+	protected Animator _animator;
+	private void CommonMovementMethod(Vector2 movement)
+	{
+		
+		// Threshold por bajos valores.
+		
+		
 	}
-	
+	/*
+
     private void CommonMovementMethod(Vector2 movement) {
 		
+        // Threshold por bajos valores.
 		if ((Mathf.Abs(movement.x) < JOYSTICK_THRESHOLD && Mathf.Abs(movement.y) < JOYSTICK_THRESHOLD) || Camera.main == null) {
 			PlayerTransform.GetComponent<Locomotion>().StopMoving();
 			return;
@@ -77,10 +105,8 @@ public class MovementController : MonoBehaviour {
 
 		Transform camTransf = Camera.main.transform;
 		
-		
 		Vector2 camForward2d = new Vector2(camTransf.forward.x, camTransf.forward.z).normalized;
 		Vector2 camRight2d = new Vector2(camTransf.right.x, camTransf.right.z).normalized;
-		
 		
 		Vector2 playerForward2d = new Vector2(PlayerTransform.forward.x, PlayerTransform.forward.z).normalized;
 		Vector2 playerRight2d = new Vector2(PlayerTransform.right.x, PlayerTransform.right.z).normalized;
@@ -106,15 +132,8 @@ public class MovementController : MonoBehaviour {
 		const float TO_DEGREE = 180/Mathf.PI;
 		float appliedRotation = Mathf.Atan2(relPlayerMov, relForwardPlayerMov) * TO_DEGREE;
 		
-		/*
-		if (relForwardPlayerMov > 0f) {
-			initialRotation = 90f * anglePlayerMov;
-		} else {
-			initialRotation = 90f + 90f * (Mathf.Sign(relPlayerMov) *  - relPlayerMov);
-		}
-		*/
-		
-		
+		if (relForwardPlayerMov > 0f) initialRotation = 90f * anglePlayerMov;
+		else initialRotation = 90f + 90f * (Mathf.Sign(relPlayerMov) *  - relPlayerMov);
 		
 		appliedRotation *= Mathf.Clamp((isMoving? Time.deltaTime * 5 : 1f), 0f, 1f);
 		
@@ -129,4 +148,5 @@ public class MovementController : MonoBehaviour {
 		PlayerTransform.GetComponent<Locomotion>().movement = movement.magnitude;
     	PlayerTransform.GetComponent<Locomotion>().rotation = appliedRotation;
     }	
+    */
 }

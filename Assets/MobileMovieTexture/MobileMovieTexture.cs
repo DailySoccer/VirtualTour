@@ -478,6 +478,7 @@ namespace MMT
 
 				if( mMaterials.ContainsKey(m_path) ){
 					MovieMaterial[0] = gameObject.GetComponent<Renderer>().sharedMaterial = mMaterials[m_path];
+					this.enabled = false;
 				}else{
 	                CopyMaterial = (Material)Instantiate(MovieMaterial[0]);
 					CopyMaterial.name = m_path;

@@ -37,3 +37,6 @@ ehthumbs.db
 # ============== #
 [Dd]eployBuilds/
 [Dd]eployBuilds/*
+/iOS/
+/VirtualTourOSX.app/
+/Android/

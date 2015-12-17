@@ -143,15 +143,16 @@ public class MainManager : Photon.PunBehaviour {
 	}
 
 	void Start() {
-#if UNITY_ANDROID || UNITY_IOS
-        InitializeStore();
-#endif
 		if (UserAPI.Instance != null) {
 			StartCoroutine(CheckForInternetConnection());
 		}
 		else {
 			StartCoroutine(Connect ());
 		}
+#if UNITY_ANDROID || UNITY_IOS
+        InitializeStore();
+#endif
+
 	}
 
 	void InitializeStore() {
@@ -221,8 +222,8 @@ public class MainManager : Photon.PunBehaviour {
 	
 	IEnumerator Connect() {
 		yield return StartCoroutine(CheckForInternetConnection());
-
 		if (DLCManager.Instance != null) {
+			Debug.Log ("CacheResources...");
 			yield return StartCoroutine(DLCManager.Instance.CacheResources());
 		}
 
@@ -247,9 +248,9 @@ public class MainManager : Photon.PunBehaviour {
 
 	public IEnumerator CheckForInternetConnection()	{
 		while (!InternetConnection && !OfflineMode) {
-			WWW www = new WWW("http://google.com");
-			yield return www;
-			InternetConnection = string.IsNullOrEmpty(www.error);
+//			WWW www = new WWW("http://google.com");
+//			yield return www;
+			InternetConnection = Application.internetReachability != NetworkReachability.NotReachable;//string.IsNullOrEmpty(www.error);
 
 			if (InternetConnection) {
 				Debug.Log ("InternetConnection: OK");

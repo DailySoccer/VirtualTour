@@ -49,7 +49,10 @@ namespace ExitGames.Client.Photon.Chat
         /// <summary>Current state of the ChatClient. Also use CanChat.</summary>
         public ChatState State { get; private set; }
         public ChatDisconnectCause DisconnectedCause { get; private set; }
-        public bool CanChat { get { return this.State == ChatState.ConnectedToFrontEnd && this.HasPeer; } }
+        public bool CanChat { get { 
+				UnityEngine.Debug.Log(">>> "+this.State);
+
+				return this.State == ChatState.ConnectedToFrontEnd && this.HasPeer; } }
         private bool HasPeer { get { return this.chatPeer != null; }  }
 
         /// <summary>The version of your client. A new version also creates a new "virtual app" to separate players from older client versions.</summary>
