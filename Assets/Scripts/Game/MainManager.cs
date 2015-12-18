@@ -111,6 +111,8 @@ public class MainManager : Photon.PunBehaviour {
 	}
 
 	void Awake() {
+		OfflineMode = Application.internetReachability == NetworkReachability.NotReachable;
+
 		Screen.sleepTimeout = SleepTimeout.NeverSleep;
 		Screen.autorotateToPortrait = Screen.autorotateToPortraitUpsideDown = false;
 		Screen.autorotateToLandscapeLeft = Screen.autorotateToLandscapeRight = true;
@@ -153,6 +155,10 @@ public class MainManager : Photon.PunBehaviour {
         InitializeStore();
 #endif
 
+	}
+
+	void OnApplicationPause(bool pauseStatus) {
+		Application.Quit();
 	}
 
 	void InitializeStore() {

@@ -20,15 +20,15 @@ public class MovementController : MonoBehaviour {
 	}
 	
 	public Vector2 rotation {
-		get { return rotationJoystick.joystickValue; }
+		get { return rotationJoystick.deltaTouchValue; }
 	}
 	
 	/**
 	 * Joysitck rotation weighted with user's finger speed.
 	 */
-	public Vector2 rotationWeighted {
-		get { return (2f * rotation + rotationJoystick.deltaTouchValue * rotationJoystick.speed) / 3f; }
-	}
+//	public Vector2 rotationWeighted {
+//		get { return (2f * rotation + rotationJoystick.deltaTouchValue * rotationJoystick.speed) / 3f; }
+//	}
 	
 	private Transform PlayerTransform {
 		get {
@@ -75,10 +75,13 @@ public class MovementController : MonoBehaviour {
 			else _animator.SetFloat("Forward", -1);
 		}
 		
-		rotCamera.x += rotation.x * ROTATE_SPEED;
+		float s = 400 / Screen.dpi;
+		rotCamera.x += rotation.x * ROTATE_SPEED * s;
+
+
 		rotCamera.y = rotation.y * PITCH_SPEED;
 		Player.Instance.cameraRotation = rotCamera.x;
-		Player.Instance.cameraPitch = rotCamera.y;
+		Player.Instance.cameraPitch = rotCamera.y * s;
 		
 		PlayerTransform.rotation = 
 			Quaternion.Slerp(PlayerTransform.rotation, Quaternion.Euler(0, Camera.main.transform.rotation.eulerAngles.y, 0), facing);
