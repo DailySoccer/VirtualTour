@@ -18,6 +18,8 @@ ModelImporter:
     100020: salaTuEres
     100022: videoWall_Final
     100024: autoilum
+    100026: glass_maqueta
+    100028: vitrinaMaqueta
     400000: Box001
     400002: Box002
     400004: collider
@@ -31,6 +33,8 @@ ModelImporter:
     400020: salaTuEres
     400022: videoWall_Final
     400024: autoilum
+    400026: glass_maqueta
+    400028: vitrinaMaqueta
     2300000: Box001
     2300002: Box002
     2300004: collider
@@ -42,6 +46,9 @@ ModelImporter:
     2300016: salaTuEres
     2300018: videoWall_Final
     2300020: autoilum
+    2300022: //RootNode
+    2300024: glass_maqueta
+    2300026: vitrinaMaqueta
     3300000: Box001
     3300002: Box002
     3300004: collider
@@ -53,6 +60,9 @@ ModelImporter:
     3300016: salaTuEres
     3300018: videoWall_Final
     3300020: autoilum
+    3300022: //RootNode
+    3300024: glass_maqueta
+    3300026: vitrinaMaqueta
     4300000: collider
     4300002: salaTuEresRealMadrid
     4300004: Box001
@@ -64,6 +74,8 @@ ModelImporter:
     4300016: salaTuEres
     4300018: videoWall_Final
     4300020: autoilum
+    4300022: vitrinaMaqueta
+    4300024: glass_maqueta
     9500000: //RootNode
   materials:
     importMaterials: 0
