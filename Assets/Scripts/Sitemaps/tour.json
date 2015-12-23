@@ -146,6 +146,22 @@
 			},
 			"contents": {
 			}
+		},
+		{ 
+			"id": "ROOM7",
+			"name": "Prensa",
+			"scene": "salaPrensa",
+			"gui": "GAME",
+			"max_players": 16,
+			"doors": {
+				"PUERTA1": "ESTADIO#PUERTA2",
+				"PUERTA2": "ESTADIO#PUERTA1"
+			},
+			"bundles": {
+				"SCENE": "scene/salaPrensa",
+			},
+			"contents": {
+			}
 		}
 	],
 	"assets": [
