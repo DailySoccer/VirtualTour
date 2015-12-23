@@ -14,6 +14,9 @@ ModelImporter:
     100012: field_reference
     100014: stairs
     100016: radiant001
+    100018: armario_001
+    100020: dekcs
+    100022: glass_aseos
     400000: changing_room
     400002: col_mesh
     400004: //RootNode
@@ -23,6 +26,9 @@ ModelImporter:
     400012: field_reference
     400014: stairs
     400016: radiant001
+    400018: armario_001
+    400020: dekcs
+    400022: glass_aseos
     2300000: changing_room
     2300002: col_mesh
     2300004: changing _room
@@ -31,6 +37,9 @@ ModelImporter:
     2300010: field_reference
     2300012: stairs
     2300014: radiant001
+    2300016: armario_001
+    2300018: dekcs
+    2300020: glass_aseos
     3300000: changing_room
     3300002: col_mesh
     3300004: changing _room
@@ -39,6 +48,9 @@ ModelImporter:
     3300010: field_reference
     3300012: stairs
     3300014: radiant001
+    3300016: armario_001
+    3300018: dekcs
+    3300020: glass_aseos
     4300000: col_mesh
     4300002: changing_room
     4300004: changing _room
@@ -46,6 +58,9 @@ ModelImporter:
     4300008: field_reference
     4300010: decks
     4300012: radiant001
+    4300014: armario_001
+    4300016: dekcs
+    4300018: glass_aseos
     7400000: Take 001
     9500000: //RootNode
   materials:
