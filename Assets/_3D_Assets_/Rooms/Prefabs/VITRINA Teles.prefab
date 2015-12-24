@@ -79,6 +79,7 @@ GameObject:
   - 33: {fileID: 3363522}
   - 23: {fileID: 2301488}
   - 114: {fileID: 11447958}
+  - 114: {fileID: 11432876}
   m_Layer: 11
   m_Name: teleEntrevistas Raul
   m_TagString: Untagged
@@ -214,6 +215,7 @@ GameObject:
   - 33: {fileID: 3325034}
   - 23: {fileID: 2336080}
   - 114: {fileID: 11487786}
+  - 114: {fileID: 11462732}
   m_Layer: 11
   m_Name: teleEntrevistas Zidane
   m_TagString: Untagged
@@ -334,6 +336,7 @@ GameObject:
   - 33: {fileID: 3376924}
   - 23: {fileID: 2324650}
   - 114: {fileID: 11472896}
+  - 114: {fileID: 11463798}
   m_Layer: 11
   m_Name: teleEntrevistas Mijatovic
   m_TagString: Untagged
@@ -693,6 +696,7 @@ GameObject:
   - 33: {fileID: 3391490}
   - 23: {fileID: 2334344}
   - 114: {fileID: 11478610}
+  - 114: {fileID: 11458788}
   m_Layer: 11
   m_Name: teleEntrevistas Zidane (1)
   m_TagString: Untagged
@@ -879,7 +883,7 @@ Transform:
   m_GameObject: {fileID: 162134}
   m_LocalRotation: {x: .00355832023, y: .707097948, z: .707097828, w: -.00355833746}
   m_LocalPosition: {x: -40.3409996, y: 1.00199997, z: -2.04900002}
-  m_LocalScale: {x: 97.2568817, y: 97.2569122, z: 97.2568436}
+  m_LocalScale: {x: 38.3665543, y: 38.3665657, z: 38.366539}
   m_Children: []
   m_Father: {fileID: 422144}
   m_RootOrder: 17
@@ -927,7 +931,7 @@ Transform:
   m_GameObject: {fileID: 195166}
   m_LocalRotation: {x: .0197748672, y: .706830323, z: .706830204, w: -.0197748747}
   m_LocalPosition: {x: -37.3552856, y: 1.95700002, z: -2.05699039}
-  m_LocalScale: {x: 97.2569504, y: 97.2569351, z: 97.2568741}
+  m_LocalScale: {x: 38.366581, y: 38.3665771, z: 38.3665504}
   m_Children: []
   m_Father: {fileID: 422144}
   m_RootOrder: 14
@@ -1049,7 +1053,7 @@ Transform:
   m_GameObject: {fileID: 160302}
   m_LocalRotation: {x: .0192321185, y: .706845284, z: .706845164, w: -.0192321278}
   m_LocalPosition: {x: -40.9412689, y: 1.00199997, z: -2.04899168}
-  m_LocalScale: {x: 97.2569504, y: 97.2569351, z: 97.2568741}
+  m_LocalScale: {x: 38.366581, y: 38.3665771, z: 38.3665504}
   m_Children: []
   m_Father: {fileID: 422144}
   m_RootOrder: 18
@@ -1181,7 +1185,7 @@ Transform:
   m_GameObject: {fileID: 147900}
   m_LocalRotation: {x: -.0129393619, y: .706988513, z: .706988394, w: .0129393348}
   m_LocalPosition: {x: -39.494709, y: 1.95099998, z: -2.04699588}
-  m_LocalScale: {x: 97.257019, y: 97.256958, z: 97.2569046}
+  m_LocalScale: {x: 38.3666077, y: 38.3665848, z: 38.3665619}
   m_Children: []
   m_Father: {fileID: 422144}
   m_RootOrder: 16
@@ -1241,7 +1245,7 @@ Transform:
   m_GameObject: {fileID: 199376}
   m_LocalRotation: {x: .00355832023, y: .707097948, z: .707097828, w: -.00355833746}
   m_LocalPosition: {x: -43.3650017, y: 1.00199997, z: -2.05100012}
-  m_LocalScale: {x: 97.2570877, y: 97.2569809, z: 97.2569351}
+  m_LocalScale: {x: 38.3666344, y: 38.3665924, z: 38.3665771}
   m_Children: []
   m_Father: {fileID: 422144}
   m_RootOrder: 21
@@ -1265,7 +1269,7 @@ Transform:
   m_GameObject: {fileID: 196340}
   m_LocalRotation: {x: .00427750172, y: .707093954, z: .707093835, w: -.00427751988}
   m_LocalPosition: {x: -50.0460014, y: 1.43400002, z: -2.079}
-  m_LocalScale: {x: 97.2568817, y: 97.2569122, z: 97.2568436}
+  m_LocalScale: {x: 38.3665543, y: 38.3665657, z: 38.366539}
   m_Children: []
   m_Father: {fileID: 422144}
   m_RootOrder: 26
@@ -1325,7 +1329,7 @@ Transform:
   m_GameObject: {fileID: 185570}
   m_LocalRotation: {x: .00355832023, y: .707097948, z: .707097828, w: -.00355833746}
   m_LocalPosition: {x: -44.9970016, y: 1.75100005, z: -2.06100011}
-  m_LocalScale: {x: 97.2570877, y: 97.2569809, z: 97.2569351}
+  m_LocalScale: {x: 38.3666344, y: 38.3665924, z: 38.3665771}
   m_Children: []
   m_Father: {fileID: 422144}
   m_RootOrder: 23
@@ -3131,6 +3135,26 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11432876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43148a0e368f8c1499ac9715431ec5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_path: raul.ogv
+  m_movieMaterials:
+  - {fileID: 2100000, guid: 0ac1bcad2bdef2e4db76fa0ff07b597f, type: 2}
+  m_playAutomatically: 1
+  m_advance: 1
+  m_loopCount: -1
+  m_playSpeed: 1
+  m_scanDuration: 1
+  m_seekKeyFrame: 0
 --- !u!114 &11439612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3152,7 +3176,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5e090111cdc94dfb95e37ec4d22b2f1, type: 3}
   m_Name: 
@@ -3434,13 +3458,73 @@ MonoBehaviour:
   - {fileID: 2800000, guid: ffefc22834eff0447a2107559e967a6a, type: 3}
   - {fileID: 2800000, guid: 32078511232a38b44940a7d89cda6cb0, type: 3}
   framesPerSecond: 15
---- !u!114 &11472896
+--- !u!114 &11458788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43148a0e368f8c1499ac9715431ec5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_path: zidane.ogv
+  m_movieMaterials:
+  - {fileID: 2100000, guid: 0ac1bcad2bdef2e4db76fa0ff07b597f, type: 2}
+  m_playAutomatically: 1
+  m_advance: 1
+  m_loopCount: -1
+  m_playSpeed: 1
+  m_scanDuration: 1
+  m_seekKeyFrame: 0
+--- !u!114 &11462732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43148a0e368f8c1499ac9715431ec5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_path: zidane.ogv
+  m_movieMaterials:
+  - {fileID: 2100000, guid: 0ac1bcad2bdef2e4db76fa0ff07b597f, type: 2}
+  m_playAutomatically: 1
+  m_advance: 1
+  m_loopCount: -1
+  m_playSpeed: 1
+  m_scanDuration: 1
+  m_seekKeyFrame: 0
+--- !u!114 &11463798
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125650}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43148a0e368f8c1499ac9715431ec5bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_path: mijatovic.ogv
+  m_movieMaterials:
+  - {fileID: 2100000, guid: 0ac1bcad2bdef2e4db76fa0ff07b597f, type: 2}
+  m_playAutomatically: 1
+  m_advance: 1
+  m_loopCount: -1
+  m_playSpeed: 1
+  m_scanDuration: 1
+  m_seekKeyFrame: 0
+--- !u!114 &11472896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125650}
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5e090111cdc94dfb95e37ec4d22b2f1, type: 3}
   m_Name: 
@@ -3551,7 +3635,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 167204}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5e090111cdc94dfb95e37ec4d22b2f1, type: 3}
   m_Name: 
@@ -3937,7 +4021,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 114710}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5e090111cdc94dfb95e37ec4d22b2f1, type: 3}
   m_Name: 
