@@ -23,17 +23,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Vestuarios.unity
   - enabled: 1
     path: Assets/Scenes/Bernabeu_1.unity
-  - enabled: 0
-    path: Assets/Scenes/Test/RoomsScene.unity
-  - enabled: 0
-    path: Assets/Scenes/Bernabeu.unity
-  - enabled: 0
-    path: Assets/Scenes/Test/PUNScene.unity
-  - enabled: 0
-    path: Assets/Scenes/Test/Level1.unity
-  - enabled: 0
-    path: Assets/Scenes/Test/Level2.unity
-  - enabled: 0
-    path: Assets/Scenes/Test/UI Chat Test.unity
   - enabled: 1
     path: Assets/Scenes/salaPrensa.unity
