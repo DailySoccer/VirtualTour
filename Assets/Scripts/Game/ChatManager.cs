@@ -124,7 +124,8 @@ public class ChatManager : Photon.PunBehaviour, IChatClientListener {
 	
 	public void OnDisconnected() {
 		Debug.Log ("OnDisconnected");
-		ChatClient.Connect(ChatAppId, "1.0", UserName, null);
+        if (!PhotonHandler.AppQuits)
+            ChatClient.Connect(ChatAppId, "1.0", UserName, null);
 		// ChatClient.Unsubscribe( new string[] { CHANNEL_GLOBAL } );
 	}
 	
