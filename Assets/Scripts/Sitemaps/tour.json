@@ -23,7 +23,7 @@
 			"doors": {
 				"PUERTA1": "AVATAR",
 				"PUERTA2": "ROOM1",
-				"PUERTA3": "ROOM1",
+				"PUERTA3": "ROOM7",
 				"PUERTA4": "ROOM6",
 			},
 			"bundles": {
@@ -139,7 +139,7 @@
 			"max_players": 16,
 			"doors": {
 				"PUERTA1": "ROOM5",
-				"PUERTA2": "ESTADIO"
+				"PUERTA2": "ESTADIO#PUERTA1"
 			},
 			"bundles": {
 				"SCENE": "scene/vestuarios",
@@ -154,11 +154,11 @@
 			"gui": "GAME",
 			"max_players": 16,
 			"doors": {
-				"PUERTA1": "ESTADIO#PUERTA2",
+				"PUERTA1": "ESTADIO#PUERTA3",
 				"PUERTA2": "ESTADIO#PUERTA1"
 			},
 			"bundles": {
-				"SCENE": "scene/salaPrensa",
+				"SCENE": "scene/sala_prensa",
 			},
 			"contents": {
 			}
